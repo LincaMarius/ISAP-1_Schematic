@@ -37,3 +37,20 @@ The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identi
 
 ![ Figure 4 ](/Pictures/Figure4.png)
 
+To design the Schematic, I used the KiCAD program
+
+The implemented scheme will be almost identical to the original one of the SAP-1 Computer
+
+### Program Counter Schematic
+In the original scheme, the authors used 4 flip-flops connected in such a way that they form a binary counter with 16. For implementation, two 74LS107 integrated circuits were used.
+
+The output from the circuit to the bus is done using four three-state drivers, using a 74LS126 integrated circuit.
+
+The scheme does not show any changes from the original one.
+
+![ Figure 5 ](/Pictures/Figure5.png)
+
+
+
+
+

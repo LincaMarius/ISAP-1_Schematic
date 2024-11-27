@@ -24,3 +24,8 @@ where I optimized the SAP-1 computer
 The Structure of the SAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)
+
+The Block Diagram of the Central Processing Unit of the ISAP-1 computer is:
+
+![ Figure 2 ](/Pictures/Figure2.png)
+

@@ -32,3 +32,8 @@ The Block Diagram of the Central Processing Unit of the ISAP-1 computer is:
 The Output Device Block Diagram representing the original Output Register in the SAP-1 computer is as follows
 
 ![ Figure 3 ](/Pictures/Figure3.png)
+
+The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identical to that of the SAP-1 computer is shown in the following figure
+
+![ Figure 4 ](/Pictures/Figure4.png)
+

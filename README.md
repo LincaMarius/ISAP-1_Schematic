@@ -99,3 +99,25 @@ This control signal will activate the Digital Display module of the computer by 
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 9 ](/Pictures/Figure9.png)
+
+### Instruction Register
+The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
+
+The first chip marked U8 in the diagram stores the upper nibble which represents the binary code of the instruction being executed.
+
+The second chip marked in the diagram U9 stores the lower nibble which represents the parameter for the instruction being executed.
+
+According to the catalog data for the 74LS173 integrated circuit, pin 14 is D0 and the corresponding output Q0 is pin 3, pin 13 is D1 and the corresponding output Q1 is pin 4, pin 12 is D2 and the corresponding output Q2 is pin 4, and pin 11 is D3 and the corresponding output Q3 is pin 6.
+
+But in the SAP-1 computer schematic, pin 14 which is D0 and pin 3 which is Q0 are connected to bit 3 of the W Bus, pin 13 which is D1 and pin 4 which is Q1 are connected to bit 2 of the W Bus, pin 12 which is D2 and pin 5 which is Q2 are connected to bit 1 of the W Bus and pin 11 which is D3 and pin 6 which is Q3 are connected to bit 0 of the W Bus.
+
+So, the order of inputs and outputs is reversed. Since the inputs and outputs are also reversed accordingly, the operation of the SAP-1 computer is normal.
+
+I connected the chip pins to the bus in the order given in the catalog sheets
+
+The scheme does not present any other changes compared to the original one.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
+![ Figure 10 ](/Pictures/Figure10.png)
+

@@ -74,11 +74,19 @@ In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and 
 
 Although the Memory subsystem is treated as a separate block, the scheme does not show any changes from the original one in SAP-1.
 
-![ Figure 7 ](/Pictures/Figure7.png)
-
 I also highlighted the components that are part of the Control Panel
 
 The integrated circuit marked U4 in the diagram, type 74LS157, which consists of 4 2-to-1 multiplexers, is used to select the address.
 
 If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
+
+From the catalog data of the 74LS189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the DM (CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
+
+I propose the following improvement, to display the contents of the memory using the computer's Digital Display when in "Programming" mode.
+
+For this purpose I added the PRG control signal
+
+This is the original schematic of the SAP-1 computer:
+
+![ Figure 7 ](/Pictures/Figure7.png)
 

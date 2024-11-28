@@ -48,6 +48,8 @@ The output from the circuit to the bus is done using four three-state drivers, u
 
 The scheme does not show any changes from the original one.
 
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
 ![ Figure 5 ](/Pictures/Figure5.png)
 
 ### Address Register Schematic
@@ -73,4 +75,8 @@ Although the Memory subsystem is treated as a separate block, the scheme does no
 ![ Figure 7 ](/Pictures/Figure7.png)
 
 I also highlighted the components that are part of the Control Panel
+
+The integrated circuit marked U4 in the diagram, type 74LS157, which consists of 4 2-to-1 multiplexers, is used to select the address.
+
+If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
 

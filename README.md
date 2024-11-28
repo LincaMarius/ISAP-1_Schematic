@@ -53,12 +53,24 @@ The scheme does not show any changes from the original one.
 ### Address Register Schematic
 In the original scheme, the authors used a 4-bit register using the 74LS173 integrated circuit which has a permanently active output.
 
-It is worth noting that the connection of the inputs to the data bus is in reverse order in the original SAP-1 computer schematic, D0 is connected to pin 11, D1 is connected to pin 12, D2 is connected to pin 13 and D4 is connected to pin 14.
+Note that the connection of the inputs to the data bus is in reverse order in the original SAP-1 computer schematic, D0 is connected to pin 11, D1 is connected to pin 12, D2 is connected to pin 13 and D4 is connected to pin 14.
 
 The outputs are also connected according to the inputs. The operation of the SAP-1 computer is not affected by this order.
+
+![ Figure 6 ](/Pictures/Figure6.png)
 
 I modified the pin connections to the bus according to the catalog data for the 74LS173.
 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
 
-![ Figure 6 ](/Pictures/Figure6.png)
+### Memory Subsystem
+In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.
+
+In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and the I/O Subsystem.
+
+Although the Memory subsystem is treated as a separate block, the scheme does not show any changes from the original one in SAP-1.
+
+![ Figure 7 ](/Pictures/Figure7.png)
+
+I also highlighted the components that are part of the Control Panel
+

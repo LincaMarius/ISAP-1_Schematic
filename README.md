@@ -90,3 +90,6 @@ This is the original schematic of the SAP-1 computer:
 
 ![ Figure 7 ](/Pictures/Figure7.png)
 
+This is the improved schematic of the ISAP-1 computer:
+
+![ Figure 8 ](/Pictures/Figure8.png)

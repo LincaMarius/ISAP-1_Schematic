@@ -59,11 +59,13 @@ Note that the connection of the inputs to the data bus is in reverse order in th
 
 The outputs are also connected according to the inputs. The operation of the SAP-1 computer is not affected by this order.
 
-![ Figure 6 ](/Pictures/Figure6.png)
-
 I modified the pin connections to the bus according to the catalog data for the 74LS173.
 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
+
+I added decoupling capacitors with a value of 100nF for the integrated circuit used. The schematic does not show any changes from the original one.
+
+![ Figure 6 ](/Pictures/Figure6.png)
 
 ### Memory Subsystem
 In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.

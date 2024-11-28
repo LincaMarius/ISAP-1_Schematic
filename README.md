@@ -93,3 +93,9 @@ This is the original schematic of the SAP-1 computer:
 This is the improved schematic of the ISAP-1 computer:
 
 ![ Figure 8 ](/Pictures/Figure8.png)
+
+This control signal will activate the Digital Display module of the computer by overriding the I/O (LO) signal given by the Control Unit.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
+![ Figure 9 ](/Pictures/Figure9.png)

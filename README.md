@@ -218,3 +218,14 @@ The schematic does not present any other changes compared to the original one.
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 18 ](/Pictures/Figure18.png)
+
+### ISAP-1 computer assembly
+The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows
+
+![ Figure 19 ](/Pictures/Figure19.png)
+
+To power the computer with 5 volts, we included a Barrel Jack plug and a USB - A connector.
+
+An overview of the PCB is shown in the following figure
+
+![ Figure 20 ](/Pictures/Figure20.png)

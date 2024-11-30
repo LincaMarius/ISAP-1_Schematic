@@ -65,7 +65,7 @@ The Schematic Diagram does has no changes from the original one.
 
 I added decoupling capacitors with a value of 100nF for the integrated circuit used
 
-![ Figure 6 ](/Pictures/Figure6.png)
+![ Figure 4 ](/Pictures/Figure4.png)
 
 ### Memory Subsystem
 In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.

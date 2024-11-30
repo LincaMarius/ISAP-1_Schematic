@@ -197,3 +197,13 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 16 ](/Pictures/Figure16.png)
 
+### Control Panel
+The control panel provides the user interface.
+
+The control panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
+
+The schematic does not present any other changes compared to the original one.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
+![ Figure 17 ](/Pictures/Figure17.png)

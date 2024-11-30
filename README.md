@@ -207,3 +207,14 @@ The schematic does not present any other changes compared to the original one.
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 17 ](/Pictures/Figure17.png)
+
+### Control Unit
+The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.
+
+It consists of three elements: the Instruction Decoder, the Ring Counter, and the Control Matrix.
+
+The schematic does not present any other changes compared to the original one.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
+![ Figure 18 ](/Pictures/Figure18.png)

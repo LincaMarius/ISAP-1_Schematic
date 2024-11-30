@@ -31,16 +31,20 @@ The original block diagram of the Central Processing Unit of the SAP-1 computer 
 
 Initially, I used Altium Designer to design the Schematic and PCB.
 
-But in order to be able to view and possibly edit them, I put the variant edited in KiCAD on GitHub because this program is free and can be used freely by anyone.
+But so that they can be viewed and possibly edited by anyone, I put the KiCAD-edited version on GitHub because this program is free and can be used freely by anyone.
 
 The implemented scheme will be almost identical to the original one of the SAP-1 Computer.
 
 ### Program Counter Schematic
-In the original scheme, the authors used 4 flip-flops connected in such a way that they form a binary counter with 16. For implementation, two 74LS107 integrated circuits were used.
+In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.
+
+Counting is done when the CP control signal is active and the falling edge of the clock signal appears.
+
+The Program Counter has its output connected to the Bus, therefore it must be Tri-State. A 74LS126 chip is used for this purpose
 
 The output from the circuit to the bus is done using four three-state drivers, using a 74LS126 integrated circuit.
 
-The scheme does not show any changes from the original one.
+The Schematic Diagram does has no changes from the original one.
 
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 

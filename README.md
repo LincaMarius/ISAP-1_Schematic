@@ -72,11 +72,17 @@ In the SAP-1 Computer, the Memory is represented in the middle of the System. Se
 
 In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and the I/O Subsystem.
 
+The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identical to that of the SAP-1 computer is shown in the following figure
+
+![ Figure 5 ](/Pictures/Figure5.png)
+
 Although the Memory subsystem is treated as a separate block, the scheme does not show any changes from the original one in SAP-1.
 
 I also highlighted the components that are part of the Control Panel
 
-The integrated circuit marked U4 in the diagram, type 74LS157, which consists of 4 2-to-1 multiplexers, is used to select the address.
+![ Figure 6 ](/Pictures/Figure6.png)
+
+The integrated circuit marked in the diagram C5 in the SAP-1 schematic and U5 in the ISAP-1 schematic of the 74LS157 type which consists of 4 2-to-1 multiplexers is used to select the address.
 
 If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
 
@@ -97,8 +103,6 @@ This is the improved schematic of the ISAP-1 computer:
 This control signal will activate the Digital Display module of the computer by overriding the I/O (LO) signal given by the Control Unit.
 
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 9 ](/Pictures/Figure9.png)
 
 ### Instruction Register
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.

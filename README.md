@@ -48,20 +48,22 @@ The Schematic Diagram does has no changes from the original one.
 
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
-![ Figure 5 ](/Pictures/Figure5.png)
+![ Figure 3 ](/Pictures/Figure3.png)
 
 ### Address Register Schematic
 In the original scheme, the authors used a 4-bit register using the 74LS173 integrated circuit which has a permanently active output.
 
 Note that the connection of the inputs to the data bus is in reverse order in the original SAP-1 computer schematic, D0 is connected to pin 11, D1 is connected to pin 12, D2 is connected to pin 13 and D4 is connected to pin 14.
 
-The outputs are also connected according to the inputs. The operation of the SAP-1 computer is not affected by this order.
+The outputs are also connected in the reverse order. The operation of the SAP-1 computer is not affected by this order because the correspondence between inputs and outputs is maintained.
 
 I modified the pin connections to the bus according to the catalog data for the 74LS173.
 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
 
-I added decoupling capacitors with a value of 100nF for the integrated circuit used. The schematic does not show any changes from the original one.
+The Schematic Diagram does has no changes from the original one.
+
+I added decoupling capacitors with a value of 100nF for the integrated circuit used
 
 ![ Figure 6 ](/Pictures/Figure6.png)
 

@@ -188,8 +188,12 @@ The output is permanently active because pins 1 and 2 are connected to ground. T
 
 ![ Figure 15 ](/Pictures/Figure15.png)
 
-The output is connected to the eight LEDs through eight 1k ohm current limiting resistors and is permanently enabled by connecting pins 1 and 2 to ground.
-
+### Binary Display
+The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.
 
 The current is limited by resistors for a red LED to the value of (Voh – Vled) / (R + Rint) = (2.4V – 1.8V) / (1000 + 100) = 0.5 / 1100 = 0.5mA (theoretical)
+
+The schematic does not present any other changes compared to the original one.
+
+![ Figure 16 ](/Pictures/Figure16.png)
 

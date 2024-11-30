@@ -119,7 +119,7 @@ So, the order of inputs and outputs is reversed. Since the inputs and outputs ar
 
 I connected the chip pins to the bus in the order given in the catalog sheets
 
-The scheme does not present any other changes compared to the original one.
+The Schematic does not present any other changes compared to the original one.
 
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
@@ -151,8 +151,8 @@ The Subtract Operation is performed by 2's Complementing the operand B. For this
 
 The result is transmitted on the Bus via 8 three-state buffers when the EU control signal is active. These buffers are of the 74LS126 type. Each chip has 4 buffers, so 2 chips are required.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
 The schematic does not present any other changes compared to the original one.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 12 ](/Pictures/Figure12.png)

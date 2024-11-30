@@ -156,3 +156,18 @@ The schematic does not present any other changes compared to the original one.
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 12 ](/Pictures/Figure12.png)
+
+### Register B
+Register B acts as a temporary storage register, where the operand B required by the Adder to perform the Addition operation is loaded.
+
+In the original schematic, two 4-bit 74LS173 registers are used, denoted C20 and C21.
+
+When the LB control signal is low and the rising edge of the clock signal appears, the data present on the Bus is loaded into the registers.
+
+The output is connected to input B of the Adder and is permanently enabled by connecting pins 1 and 2 to ground.
+
+The schematic does not present any other changes compared to the original one.
+
+I added decoupling capacitors with a value of 100nF for each integrated circuit used
+
+![ Figure 13 ](/Pictures/Figure13.png)

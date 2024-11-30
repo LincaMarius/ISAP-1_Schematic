@@ -171,3 +171,25 @@ The schematic does not present any other changes compared to the original one.
 I added decoupling capacitors with a value of 100nF for each integrated circuit used
 
 ![ Figure 13 ](/Pictures/Figure13.png)
+
+### Output Device – Binary Display
+In the SAP-1 computer the output device is called the Output Register and is present in the Block Diagram at the bottom right of the drawing.
+
+The Binary Display is made with 8 LEDs connected directly to the output of the Output Register.
+
+![ Figure 14 ](/Pictures/Figure14.png)
+
+### Output Device
+In the original schematic, two 4-bit 74LS173 registers are used, denoted C22 and C23.
+
+When the LO control signal is low and the rising edge of the clock signal appears, the data present on the Bus is loaded into the registers.
+
+The output is permanently active because pins 1 and 2 are connected to ground. The outputs are labeled O0 to O7.
+
+![ Figure 15 ](/Pictures/Figure15.png)
+
+The output is connected to the eight LEDs through eight 1k ohm current limiting resistors and is permanently enabled by connecting pins 1 and 2 to ground.
+
+
+The current is limited by resistors for a red LED to the value of (Voh – Vled) / (R + Rint) = (2.4V – 1.8V) / (1000 + 100) = 0.5 / 1100 = 0.5mA (theoretical)
+

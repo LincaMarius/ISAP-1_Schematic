@@ -21,25 +21,19 @@ https://github.com/LincaMarius/ISAP-Computer
 where I optimized the SAP-1 computer
 
 ## ISAP-1 version 1
-The Structure of the SAP-1 computer is:
+The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)
 
-The Block Diagram of the Central Processing Unit of the ISAP-1 computer is:
+The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
 ![ Figure 2 ](/Pictures/Figure2.png)
 
-The Output Device Block Diagram representing the original Output Register in the SAP-1 computer is as follows
+Initially, I used Altium Designer to design the Schematic and PCB.
 
-![ Figure 3 ](/Pictures/Figure3.png)
+But in order to be able to view and possibly edit them, I put the variant edited in KiCAD on GitHub because this program is free and can be used freely by anyone.
 
-The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identical to that of the SAP-1 computer is shown in the following figure
-
-![ Figure 4 ](/Pictures/Figure4.png)
-
-To design the Schematic, I used the KiCAD program
-
-The implemented scheme will be almost identical to the original one of the SAP-1 Computer
+The implemented scheme will be almost identical to the original one of the SAP-1 Computer.
 
 ### Program Counter Schematic
 In the original scheme, the authors used 4 flip-flops connected in such a way that they form a binary counter with 16. For implementation, two 74LS107 integrated circuits were used.

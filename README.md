@@ -46,8 +46,6 @@ The output from the circuit to the bus is done using four three-state drivers, u
 
 The Schematic Diagram does has no changes from the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
 ![ Figure 3 ](/Pictures/Figure3.png)
 
 ### Address Register Schematic
@@ -62,8 +60,6 @@ I modified the pin connections to the bus according to the catalog data for the 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
 
 The Schematic Diagram does has no changes from the original one.
-
-I added decoupling capacitors with a value of 100nF for the integrated circuit used
 
 ![ Figure 4 ](/Pictures/Figure4.png)
 

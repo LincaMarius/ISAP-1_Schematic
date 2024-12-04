@@ -185,9 +185,7 @@ It consists of three elements: the Instruction Decoder, the Ring Counter, and th
 
 The schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 18 ](/Pictures/Figure18.png)
+![ Figure 15 ](/Pictures/Figure15.png)
 
 ### ISAP-1 computer assembly
 The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows

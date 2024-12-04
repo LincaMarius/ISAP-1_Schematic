@@ -101,9 +101,7 @@ I connected the chip pins to the bus in the order given in the catalog sheets
 
 The Schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 10 ](/Pictures/Figure10.png)
+![ Figure 7 ](/Pictures/Figure7.png)
 
 ### Accumulator Register
 The Accumulator register is made using two 4-bit 74LS173 type registers marked U10 and U11 in the diagram (in the original diagram they are marked C10 and C11).

@@ -98,8 +98,6 @@ This is the improved schematic of the ISAP-1 computer:
 
 This control signal will activate the Digital Display module of the computer by overriding the I/O (LO) signal given by the Control Unit.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
 ### Instruction Register
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
 

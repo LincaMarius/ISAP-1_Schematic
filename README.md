@@ -129,9 +129,7 @@ The result is transmitted on the Bus via 8 three-state buffers when the EU contr
 
 The schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 12 ](/Pictures/Figure12.png)
+![ Figure 9 ](/Pictures/Figure9.png)
 
 ### Register B
 Register B acts as a temporary storage register, where the operand B required by the Adder to perform the Addition operation is loaded.

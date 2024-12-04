@@ -142,9 +142,7 @@ The output is connected to input B of the Adder and is permanently enabled by co
 
 The schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 13 ](/Pictures/Figure13.png)
+![ Figure 10 ](/Pictures/Figure10.png)
 
 ### Output Device – Binary Display
 In the SAP-1 computer the output device is called the Output Register and is present in the Block Diagram at the bottom right of the drawing.

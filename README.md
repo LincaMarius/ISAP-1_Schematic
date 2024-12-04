@@ -167,7 +167,7 @@ The current is limited by resistors for a red LED to the value of (Voh – Vled)
 
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 16 ](/Pictures/Figure16.png)
+![ Figure 13 ](/Pictures/Figure13.png)
 
 ### Control Panel
 The control panel provides the user interface.

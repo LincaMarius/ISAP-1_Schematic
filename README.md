@@ -158,7 +158,7 @@ When the LO control signal is low and the rising edge of the clock signal appear
 
 The output is permanently active because pins 1 and 2 are connected to ground. The outputs are labeled O0 to O7.
 
-![ Figure 15 ](/Pictures/Figure15.png)
+![ Figure 12 ](/Pictures/Figure12.png)
 
 ### Binary Display
 The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.

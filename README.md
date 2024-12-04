@@ -84,20 +84,6 @@ If switch SW2 is in the “Program” position, the address given by the Address
 
 From the catalog data of the 74LS189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the DM (CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
 
-I propose the following improvement, to display the contents of the memory using the computer's Digital Display when in "Programming" mode.
-
-For this purpose I added the PRG control signal
-
-This is the original schematic of the SAP-1 computer:
-
-![ Figure 7 ](/Pictures/Figure7.png)
-
-This is the improved schematic of the ISAP-1 computer:
-
-![ Figure 8 ](/Pictures/Figure8.png)
-
-This control signal will activate the Digital Display module of the computer by overriding the I/O (LO) signal given by the Control Unit.
-
 ### Instruction Register
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
 

@@ -176,9 +176,7 @@ The control panel provides the user interface. Contains the Reset circuit, Manua
 
 The schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 17 ](/Pictures/Figure17.png)
+![ Figure 14 ](/Pictures/Figure14.png)
 
 ### Control Unit
 The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.

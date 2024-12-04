@@ -116,9 +116,7 @@ I connected the chip pins to the bus in the order given in the catalog sheets
 
 The schematic does not present any other changes compared to the original one.
 
-I added decoupling capacitors with a value of 100nF for each integrated circuit used
-
-![ Figure 11 ](/Pictures/Figure11.png)
+![ Figure 8 ](/Pictures/Figure8.png)
 
 ### Arithmetic and Logic Unit
 The SAP-1 computer has no Logic Unit, it can only perform the Addition and Subtraction operations.

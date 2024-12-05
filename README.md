@@ -239,4 +239,4 @@ The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows
 
 An overview of the PCB is shown in the following figure
 
-![ Figure 20 ](/Pictures/Figure20.png)
+![ Figure 18 ](/Pictures/Figure18.png)

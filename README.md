@@ -235,9 +235,7 @@ To dissipate this power, we have provided a radiator to cool the integrated stab
 ### ISAP-1 computer assembly
 The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows
 
-![ Figure 19 ](/Pictures/Figure19.png)
-
-To power the computer with 5 volts, we included a Barrel Jack plug and a USB - A connector.
+![ Figure 17 ](/Pictures/Figure17.png)
 
 An overview of the PCB is shown in the following figure
 

@@ -158,6 +158,8 @@ When the LO control signal is low and the rising edge of the clock signal appear
 
 The output is permanently active because pins 1 and 2 are connected to ground. The outputs are labeled O0 to O7.
 
+The schematic does not present any other changes compared to the original one.
+
 ![ Figure 12 ](/Pictures/Figure12.png)
 
 ### Binary Display
@@ -186,6 +188,49 @@ It consists of three elements: the Instruction Decoder, the Ring Counter, and th
 The schematic does not present any other changes compared to the original one.
 
 ![ Figure 15 ](/Pictures/Figure15.png)
+
+### Power supply
+The power supply's role is to provide the 5 Volt supply voltage and support the computer's power consumption.
+
+This power supply is powered directly from the Mains and consists of a step-down transformer followed by a full bridge rectifier and an integrated regulator of 5 Volts.
+
+The transformer according to the Bill of Materials is of the F-25X type and has a primary voltage of 115 Volts, but in Europe a transformer with a primary voltage of 240 Volts is required.
+
+The secondary voltage according to the Materials List on page 502 in the original book is 12.6 Volts. Nowadays we can buy standard transformers with a secondary voltage of 12 Volts.
+
+The nominal power of the transformer for a current consumption of maximum 1.5 Amps is 12V x 1.5A = 18 VA.
+
+The maximum voltage on capacitor C3 is: Vmax = Vsec * 1.41 – 2 * Vd = 12 * 1.414 – 2 * 0.8 = 16.97 – 1.6 = 15.37 Volts
+
+The voltage ripple on the filter capacitor C3 is: dU = (Iout * T) / (2 * C3)
+
+For a mains voltage frequency of 50 Hz we have T = 1/f = 1/50 = 0.02 s
+
+For a mains voltage frequency of 60 Hz we have T = 1/f = 1/50 = 0.017 s
+
+Since we have a double alternating rectification the pulsation frequency is doubled, so the period is halved
+
+Thus the ripple period is: T = 0.01s for mains voltage with a frequency of 50 Hz and T = 0.0083s for mains voltage with a frequency of 60 Hz.
+
+The voltage ripple on the filter capacitor C3 is: dU = (1.5A * 0.01s) / (2 * 0.001F) = 0.015 / 0.002 = 7.5 Volts for mains voltage with a frequency of 50 Hz.
+
+The voltage ripple on the filter capacitor C3 is: dU = (1.5A * 0.0083s) / (2 * 0.001F) = 0.01245 / 0.002 = 6.225 Volts for mains voltage with a frequency of 60 Hz.
+
+The minimum voltage on the filter capacitor C3 is: Vmin = Vmax – dU = 15.37V – 7.5V = 7.87 Volts for mains voltage with a frequency of 50 Hz.
+
+The minimum voltage on the filter capacitor C3 is: Vmin = Vmax – dU = 15.37V – 6.225V = 9.145 Volts for mains voltage with a frequency of 60 Hz.
+
+The average voltage on the filter capacitor C3 is: V = Vmax – dU/2 = 15.37V – 7.87V/2 = 15.37V – 3.935V = 11.435 Volts for mains voltage with a frequency of 50 Hz.
+
+The average voltage on the filter capacitor C3 is: V = Vmax – dU/2 = 15.37V – 6.225V/2 = 15.37V – 3.1125V = 12.2575 Volts for mains voltage with a frequency of 60 Hz.
+
+The maximum power dissipated by the LM340T-5 integrated regulator is: P = (Vin – Vout) * I = (11.435V – 5V) * 1.5A = 6.435V * 1.5A = 9.66 Watts for mains voltage with a frequency of 50 Hz.
+
+The maximum power dissipated by the LM340T-5 integrated regulator is: P = (Vin – Vout) * I = (12.2575V – 5V) * 1.5A = 7.2575V * 1.5A = 10.87 Watts for mains voltage with a frequency of 60 Hz.
+
+To dissipate this power, we have provided a radiator to cool the integrated stabilizer. Otherwise, it will go into overtemperature protection.
+
+![ Figure 16 ](/Pictures/Figure16.png)
 
 ### ISAP-1 computer assembly
 The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows

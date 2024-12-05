@@ -242,3 +242,5 @@ An overview of the PCB is shown in the following figure
 ![ Figure 18 ](/Pictures/Figure18.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_ver1
+

@@ -254,3 +254,7 @@ In the current implementation scheme of revision B in the Control Block, 10 chip
 The schematic uses 8k EPROM memories, but any type of ROM memory of any capacity can be used.
 
 ![ Figure 19 ](/Pictures/Figure19.png)
+
+An overview of the PCB is shown in the following figure
+
+![ Figure 20 ](/Pictures/Figure20.png)

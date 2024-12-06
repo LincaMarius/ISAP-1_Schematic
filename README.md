@@ -260,3 +260,5 @@ An overview of the PCB is shown in the following figure
 ![ Figure 20 ](/Pictures/Figure20.png)
 
 The ISAP-1 computer revision B version 1 project made in KiCAD is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_revB_ver1
+

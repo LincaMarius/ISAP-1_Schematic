@@ -20,7 +20,7 @@ https://github.com/LincaMarius/ISAP-Computer
 
 where I optimized the SAP-1 computer
 
-## ISAP-1 version 1
+## ISAP-1 revision A version 1
 The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)
@@ -244,3 +244,13 @@ An overview of the PCB is shown in the following figure
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_ver1
 
+## ISAP-1 revision B version 1
+Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.
+
+In previous implementations, 18 chips were used in the Control Block.
+
+In the current implementation scheme of revision B in the Control Block, 10 chips were used
+
+The schematic uses 8k EPROM memories, but any type of ROM memory of any capacity can be used.
+
+![ Figure 19 ](/Pictures/Figure19.png)

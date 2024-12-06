@@ -242,7 +242,7 @@ An overview of the PCB is shown in the following figure
 ![ Figure 18 ](/Pictures/Figure18.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
-https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_ver1
+https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_revA_ver1
 
 ## ISAP-1 revision B version 1
 Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.
@@ -258,3 +258,5 @@ The schematic uses 8k EPROM memories, but any type of ROM memory of any capacity
 An overview of the PCB is shown in the following figure
 
 ![ Figure 20 ](/Pictures/Figure20.png)
+
+The ISAP-1 computer revision B version 1 project made in KiCAD is here: \

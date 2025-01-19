@@ -327,6 +327,7 @@ The Control Block diagram of the ISAP-1 Model A Version 1.1 computer is shown in
 The ISAP-1 Model A Version 1.1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_modelA_ver1_1
 
+*A total of 49 chips were used to implement this version of the ISAP-1 computer.*
 
 ## ISAP-1 revision B version 1
 Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.

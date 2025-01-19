@@ -323,7 +323,7 @@ The Control Block diagram of the ISAP-1 Model A Version 1.1 computer is shown in
 ![ Figure 19 ](/Pictures/Figure19.png)
 
 The ISAP-1 Model A Version 1.1 computer project made in KiCAD is here: \
-https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ ISAP-1_modelA_ver1_1
+https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_modelA_ver1_1
 
 
 ## ISAP-1 revision B version 1

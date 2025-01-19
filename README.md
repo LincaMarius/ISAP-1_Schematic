@@ -244,6 +244,8 @@ An overview of the PCB is shown in the following figure
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_revA_ver1
 
+*A total of 48 chips were used to implement this version of the ISAP-1 computer.*
+
 ## ISAP-1 Model A Version 1.1
 In Version 1.1, an improvement is made to the ISAP-1 computer by implementing the Variable Machine Cycle.
 

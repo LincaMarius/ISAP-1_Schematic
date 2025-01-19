@@ -7,7 +7,7 @@ This is the stage of choosing the electronic components used to make the ISAP-1 
 
 By: Lincă Marius Gheorghe.
 
-Pitești, Argeș, România, Europe.
+Pitești, Argeș, Romania, Europe.
 
 https://github.com/LincaMarius
 
@@ -20,7 +20,7 @@ https://github.com/LincaMarius/ISAP-Computer
 
 where I optimized the SAP-1 computer
 
-## ISAP-1 revision A version 1
+## ISAP-1 Model A Version 1
 The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)
@@ -244,6 +244,84 @@ An overview of the PCB is shown in the following figure
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_revA_ver1
 
+## ISAP-1 Model A Version 1.1
+In Version 1.1, an improvement is made to the ISAP-1 computer by implementing the Variable Machine Cycle.
+
+The Instruction Set remains unchanged but the Control Block implementation changes.
+
+In the book on page 163 the authors present a method of improving the SAP-1 Computer by implementing the Variable Machine Cycle.
+
+The schematic is shown in Figure 10-17 and consists of 5 inverters and a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low. 
+
+We can note that the SAP-1 Computer schematic is not modified to implement this functionality, only two logic gates are added.
+
+### Control Block Update
+Version 1.1 of the ISAP-1 computer presents the modification of the Control Block as described by the authors, which implements Variable Length Microcode.
+
+The scheme is modified by adding 2 gates and 5 inverters, but it is not necessary to redesign the computer.
+
+The starting point is the Control Block diagram of version 1.0 shown in figure 15.
+
+In the Diagram you can see on the right that we have several unused logic gates in the original version of the SAP-1 computer.
+
+We have a 4-input NAND gate, a 3-input NAND gate, three 2-input NAND gates, and 6 inverters.
+
+The scheme presented in the book to be implemented is intended for a control matrix made with ROM memory.
+
+Because in the current version we use logic gates to implement the control matrix, we have greater freedom to select the signals we are interested in.
+
+The signals CP, PE, EA, SI and EU must be inverted.
+
+The CP signal is T2 and must be inverted.
+
+The EP signal is T1, so the inverted EP is the inverted T1. This is available at the output of the inverter U35E.
+
+The EA signal is the output of gate U42A inverted by U35F, so if EA is inverted once more it is the same signal as that available before the double inversion, i.e. the signal from the output of gate U42A can be used directly without inversion.
+
+The SU signal is the output of gate U42B inverted by U48A, so if SU is inverted once more it is the same signal as that available before the double inversion, i.e. the signal from the output of gate U42B can be used directly without inversion.
+
+The EU signal is the output of gate U42B and must be inverted.
+
+In conclusion, only the CP and EU signals need to be inverted.
+
+All of these signals act as inputs to a 12-input NAND gate.
+
+Now we have a 4-input NAND gate, a 3-input NAND gate, three 2-input NAND gates, and 6 inverters.
+
+For implementation, a 12-input NAND gate of the 74S134 type, a 13-input NAND gate of the 74ALS133 type can be used.
+
+Another variant is using:
+- one 8-input NAND part of the 74LS30 type, one 4-input NAND part of the 74LS20 type and one 2-input OR part of the 74LS32 type
+- three 4-input NAND parts of the 74LS20 type, one 3-input NOR part of the 74LS27 type and one 74LS04 type inverter
+- four 3-input NAND parts of the 74LS10 type, one 4-input NOR part of the 74LS29 type and one 74LS04 type inverter
+- or six 2-input NAND parts of the 74LS00 type, three 3-input NOR parts of the 74LS27 type and one 74LS04 type inverter
+
+But we can design the circuit based on the available logic gates.
+
+If we denote the inputs of the 12-input NAND gate with letters from A to M without including the letter I, we can write: \
+Y = /(A*B*C*D*E*F*G*H*J*K*L*M)
+
+According to DeMorgan's first theorem: \
+/(A*B) = /A + /B
+
+Now we have a 4-input NAND gate, a 3-input NAND gate, three 2-input NAND gates, and 6 inverters.
+
+Y = /((A*B*C)*(D*E*F*G)*(H*J)*(K*L)*M)
+
+We apply DeMorgan's first theorem: \
+Y = /(A*B*C) + /(D*E*F*G)  + /(H*J) + /(K*L) + /M = N + O + P + R + S
+
+Next we need an 8-input OR gate of the 74LS4078 type, or four 2-input OR gates. \
+Y = N + O + P + R + S = (N + O) + (P + R) + S = T + U + S \
+Y = T + U + S = T + (U + S) = T + W \
+Y = T + W = (T + W)
+
+We implemented the new version using the available logic gates, thus adding only one chip.
+
+The Control Block diagram of the ISAP-1 Model A Version 1.1 computer is shown in the following figure:
+
+![ Figure 19 ](/Pictures/Figure19.png)
+
 ## ISAP-1 revision B version 1
 Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.
 
@@ -253,11 +331,11 @@ In the current implementation scheme of revision B in the Control Block, 10 chip
 
 The schematic uses 8k EPROM memories, but any type of ROM memory of any capacity can be used.
 
-![ Figure 19 ](/Pictures/Figure19.png)
+![ Figure 20 ](/Pictures/Figure20.png)
 
 An overview of the PCB is shown in the following figure
 
-![ Figure 20 ](/Pictures/Figure20.png)
+![ Figure 21 ](/Pictures/Figure21.png)
 
 The ISAP-1 computer revision B version 1 project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_revB_ver1

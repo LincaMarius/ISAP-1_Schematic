@@ -74,7 +74,7 @@ The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identi
 
 Although the Memory subsystem is treated as a separate block, the scheme does not show any changes from the original one in SAP-1.
 
-I also highlighted the components that are part of the Control Panel
+I also highlighted the components that are part of the Front Panel
 
 ![ Figure 6 ](/Pictures/Figure6.png)
 

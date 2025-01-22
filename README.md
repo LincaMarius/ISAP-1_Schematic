@@ -304,5 +304,12 @@ For the reset signal control, instead of adding a new 74LS08 chip to use a singl
 
 The Control Block schematic of the ISAP-1 Model A Version 1.1 computer is shown in the following figure:
 
+![ Figure 20 ](/Pictures/Figure20.png)
 
+This is what the completed PCB looks like for ISAP-1 Model A Version 1.1
 
+![ Figure 21 ](/Pictures/Figure21.png)
+
+An overview of the PCB is shown in the following figure
+
+![ Figure 22 ](/Pictures/Figure22.png)

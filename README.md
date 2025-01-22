@@ -171,9 +171,7 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 13 ](/Pictures/Figure13.png)
 
-### Control Panel
-The control panel provides the user interface.
-
+### Front Panel
 The control panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
 
 The schematic does not present any other changes compared to the original one.

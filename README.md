@@ -118,10 +118,10 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
-### Arithmetic and Logic Unit
+### Arithmetic Unit
 The SAP-1 computer has no Logic Unit, it can only perform the Addition and Subtraction operations.
 
-The main element of the Arithmetic Unit is the 74LS83 integrated circuit which is a 4-bit Full Adder, so two such chips are used.
+The main element of the Arithmetic Unit is the 74LS83 chip which is a 4-bit Full Adder, so two such chips are used.
 
 The Subtract Operation is performed by 2's Complementing the operand B. For this purpose, 8 x XOR Gates are used. Each 74LS86 chip has 4 gates, so 2 chips are used.
 

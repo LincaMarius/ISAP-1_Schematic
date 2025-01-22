@@ -315,6 +315,6 @@ An overview of the PCB is shown in the following figure
 ![ Figure 22 ](/Pictures/Figure22.png)
 
 The ISAP-1 Model A Version 1.1 computer project made in KiCAD is here: \
-https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/ISAP-1_modelA_ver1_1.zip
+https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelA_ver1_1.zip
 
 *A total of 49 chips were used to implement this version of the ISAP-1 computer. One more than in the previous implementation.*

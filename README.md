@@ -341,3 +341,12 @@ The schematic uses 8k EPROMs, but any type of ROM of any capacity can be used wi
 This is what the completed PCB looks like for ISAP-1 Model B Version 1.0
 
 ![ Figure 24 ](/Pictures/Figure24.png)
+
+An overview of the PCB is shown in the following figure
+
+![ Figure 25 ](/Pictures/Figure25.png)
+
+The ISAP-1 Computer Model B version 1.0 project made in KiCAD is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelB_ver1_0.zip
+
+A total of 40 chips were used to build the ISAP-1 Model B Version 1.0 computer. Compared to the ISAP-1 Model A Version 1.0 where 49 were used, we have a reduction in the number of chips by 9 pieces while maintaining the same functionality of the computer.

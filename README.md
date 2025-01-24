@@ -318,3 +318,23 @@ The ISAP-1 Model A Version 1.1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelA_ver1_1.zip
 
 *A total of 49 chips were used to implement this version of the ISAP-1 computer. One more than in the previous implementation.*
+
+## ISAP-1 Model B version 1.0
+Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.
+
+In previous implementations, 18 chips were used in the Control Block.
+
+One solution for implementation at the time the card was published in 1975 was to use the 74S188 (32 x 8 PROM open-collector), 74S288 (32 x 8 PROM tree-state), 74S387 (256 x 4 PROM open-collector), 74S287 (256 x 4 PROM tree-state), 74S470 (256 x 8 PROM open-collector), 74S471 (256 x 8 PROM tree-state), 74S473 (512 x 8 PROM open-collector), 74S472 (512 x 8 PROM tree-state), 74S475 (512 x 8 PROM open-collector), 74S474 (512 x 8 PROM tree-state), 74S451 (1024 x 8 PROM open-collector), 74S450 (1024 x 8 tree-state PROM), 74S479 (1024 x 8 open-collector PROM), 74S478 (1024 x 8 tree-state PROM), 74S3708 (1024 x 8 open-collector PROM), 74S2708 (1024 x 8 tree-state PROM), 74S477 (1024 x 4 open-collector PROM), 74S476 (1024 x 4 tree-state PROM).
+
+But these chips are no longer manufactured and even if we could find one we would not be able to program it because it requires a programmer built specifically for this purpose. These PROMs are programmable only once and cannot be reprogrammed. They use tungsten fuses to store information and require a programming current of 150mA.
+
+A modern solution is the use of PROM, EPROM, EPROM-OTP, EEPROM, FLASH memories
+
+For me the best solution is to use an EEPROM or FLASH memory because they allow the information to be rewritten many times which leads to the possibility of improving the final product over time.
+
+In the current implementation scheme of revision B in the Control Block, 10 chips were used
+
+The schematic uses 8k EPROMs, but any type of ROM of any capacity can be used with minor modifications.
+
+![ Figure 23 ](/Pictures/Figure23.png)
+

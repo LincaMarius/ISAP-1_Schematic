@@ -338,3 +338,6 @@ The schematic uses 8k EPROMs, but any type of ROM of any capacity can be used wi
 
 ![ Figure 23 ](/Pictures/Figure23.png)
 
+This is what the completed PCB looks like for ISAP-1 Model B Version 1.0
+
+![ Figure 24 ](/Pictures/Figure24.png)

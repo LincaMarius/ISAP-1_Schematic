@@ -350,3 +350,27 @@ The ISAP-1 Computer Model B version 1.0 project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelB_ver1_0.zip
 
 A total of 40 chips were used to build the ISAP-1 Model B Version 1.0 computer. Compared to the ISAP-1 Model A Version 1.0 where 49 were used, we have a reduction in the number of chips by 9 pieces while maintaining the same functionality of the computer.
+
+## ISAP-1 Model B Version 1.1
+Revision B of the ISAP-1 computer presents the modification of the Control Block as described by the authors, whereby the hard-wired logic is replaced with programmed logic.
+
+In Version 1.1, an improvement is made to the ISAP-1 computer by implementing the Variable Machine Cycle.
+
+The Instruction Set remains unchanged but the Control Block implementation changes.
+
+In the book on page 163 the authors present a method of improving the SAP-1 Computer by implementing the Variable Machine Cycle.
+
+The schematic is shown in Figure 10-17 and consists of 5 inverters and a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low. 
+
+The starting point is the Control Block diagram of version 1.0 shown in figure 23.
+
+The scheme presented in the book that needs to be implemented is for a control matrix made with ROM memory with a capacity of 16 x 12 bits. So we only have 12 outputs that are used for control.
+
+The signals CP, PE, EA, SI and EU must be inverted.
+
+All of these signals act as inputs to a 12-input NAND gate.
+
+For implementation, a 12-input NAND gate of the 74S134 type, a 13-input NAND gate of the 74ALS133 type can be used.
+
+I implemented the new version using the available logic gates that were not used by the authors of the book, so I added only one chip.
+

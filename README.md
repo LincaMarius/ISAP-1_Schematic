@@ -376,6 +376,8 @@ I implemented the new version using available logic gates that were not used by 
 
 I used the 74LS133 chip which is a 13-input NAND gate.
 
+In the current implementation scheme of revision B in the Control Block, 12 chips were used
+
 The Control Block schematic of the ISAP-1 Model B Version 1.1 Computer is shown in the following figure:
 
 ![ Figure 26 ](/Pictures/Figure26.png)
@@ -387,3 +389,8 @@ This is what the completed PCB looks like for ISAP-1 Model B Version 1.1
 An overview of the PCB is shown in the following figure
 
 ![ Figure 28 ](/Pictures/Figure28.png)
+
+The ISAP-1 Model B Version 1.1 computer project made in KiCAD is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelB_ver1_1.zip
+
+A total of 42 chips were used to build the ISAP-1 Model B Version 1.1 computer. Compared to the ISAP-1 Model A Version 1.0 where 49 were used, we have a reduction in the number of chips by 7 pieces while maintaining the same functionality of the computer.

@@ -383,3 +383,7 @@ The Control Block schematic of the ISAP-1 Model B Version 1.1 Computer is shown 
 This is what the completed PCB looks like for ISAP-1 Model B Version 1.1
 
 ![ Figure 27 ](/Pictures/Figure27.png)
+
+An overview of the PCB is shown in the following figure
+
+![ Figure 28 ](/Pictures/Figure28.png)

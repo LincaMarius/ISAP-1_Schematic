@@ -372,5 +372,11 @@ All of these signals act as inputs to a 12-input NAND gate.
 
 For implementation, a 12-input NAND gate of the 74S134 type, a 13-input NAND gate of the 74ALS133 type can be used.
 
-I implemented the new version using the available logic gates that were not used by the authors of the book, so I added only one chip.
+I implemented the new version using available logic gates that were not used by the authors of the book, so I added two chips. I used an unused 74LS00 NAND gate and an inverter to make the AND gate in the Ring Counter Reset circuit.
+
+I used the 74LS133 chip which is a 13-input NAND gate.
+
+The Control Block schematic of the ISAP-1 Model B Version 1.1 Computer is shown in the following figure:
+
+![ Figure 26 ](/Pictures/Figure26.png)
 

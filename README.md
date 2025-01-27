@@ -49,7 +49,7 @@ The Schematic Diagram does has no changes from the original one.
 ![ Figure 3 ](/Pictures/Figure3.png)
 
 ### Address Register Schematic
-In the original scheme, the authors used a 4-bit register using the 74LS173 integrated circuit which has a permanently active output.
+In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.
 
 Note that the connection of the inputs to the data bus is in reverse order in the original SAP-1 computer schematic, D0 is connected to pin 11, D1 is connected to pin 12, D2 is connected to pin 13 and D4 is connected to pin 14.
 
@@ -416,3 +416,10 @@ For example, for 74LS107 the High to Low switching time is normally 15 ns. This 
 The new schematic for the Program Counter Block is:
 
 ![ Figure 29 ](/Pictures/Figure29.png)
+
+### Address Register
+The schematic and functionality are unchanged from the original. I added a decoupling capacitor with a value of 100 nF for the chip used.
+
+The new Address Register schematic is:
+
+![ Figure 30 ](/Pictures/Figure30.png)

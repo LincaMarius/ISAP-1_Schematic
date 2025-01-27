@@ -438,6 +438,15 @@ The schematic and functionality are unchanged from the original. I added decoupl
 
 I also added a 100 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
 
-The new scheme for the Accumulator Register is:
+The new schematic for the Accumulator Register is:
 
 ![ Figure 32 ](/Pictures/Figure32.png)
+
+### Arithmetic Unit
+The schematic and functionality are unchanged from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
+
+I also added a 100 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
+The new schematic for the Arithmetic Unit is:
+
+![ Figure 33 ](/Pictures/Figure33.png)

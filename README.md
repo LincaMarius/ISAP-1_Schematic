@@ -459,3 +459,30 @@ I also added a 10 uF filter capacitor to filter out low frequency noise that may
 The new schematic for Register B is:
 
 ![ Figure 34 ](/Pictures/Figure34.png)
+
+### Control Unit
+The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.
+
+It consists of three elements: the Instruction Decoder, the Ring Counter, and the Control Matrix.
+
+The ISAP-1 Model B computer has a Control Matrix made with ROM memories.
+
+For the current version of the ISAP-1 Computer to be modular, the CPU portion must be made on a single PCB. Since the CPU consists of many chips, I decided to divide its construction into two separate PCBs that will sit back to back.
+
+We will have one PCB that contains all the building blocks of the CPU part and the second PCB contains only the Control Block.
+
+Therefore, the Control Block will be treated as an independent module within the ISAP-1 Computer.
+
+For connection to the CPU base module, we have provided two 10-pin connectors each, marked in the diagram as J3 and J4.
+These will be mounted on the back of the PCB.
+
+The functionality does not change from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
+
+I also added a 220 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
+The new schematic for the Control Unit is:
+
+![ Figure 35 ](/Pictures/Figure35.png)
+
+
+

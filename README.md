@@ -136,7 +136,7 @@ Register B acts as a temporary storage register, where the operand B required by
 
 In the original schematic, two 4-bit 74LS173 registers are used, denoted C20 and C21.
 
-When the LB control signal is low and the rising edge of the clock signal appears, the data present on the Bus is loaded into the registers.
+When the LB control signal is low and the rising edge of the clock signal occurs, the data present on the Bus is loaded into the registers.
 
 The output is connected to input B of the Adder and is permanently enabled by connecting pins 1 and 2 to ground.
 
@@ -450,3 +450,12 @@ I also added a 100 uF filter capacitor to filter out low frequency noise that ma
 The new schematic for the Arithmetic Unit is:
 
 ![ Figure 33 ](/Pictures/Figure33.png)
+
+### Register B
+The schematic and functionality are unchanged from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
+
+I also added a 10 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
+The new schematic for Register B is:
+
+![ Figure 34 ](/Pictures/Figure34.png)

@@ -394,3 +394,25 @@ The ISAP-1 Model B Version 1.1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelB_ver1_1.zip
 
 A total of 42 chips were used to build the ISAP-1 Model B Version 1.1 computer. Compared to the ISAP-1 Model A Version 1.0 where 49 were used, we have a reduction in the number of chips by 7 pieces while maintaining the same functionality of the computer.
+
+## ISAP-1 Model B Version 1.2
+In this version I will modify the ISAP-1 Computer by changing it from a Single Board Computer to a modular version.
+
+The functionality of the Computer does not change and the Instruction Set does not change.
+
+I will make improvements to the schematic by adding decoupling capacitors.
+
+Since the SAP-1 Computer was originally designed in 1975, the power supply uses a mains transformer and a Linear Voltage Regulator. This technology is specific to that time period.
+
+Nowadays, building such a power supply is more expensive compared to modern switching power supplies that are easily available. The purchase price of just the mains transformer is comparable to the purchase price of a modern 5 Volt power supply.
+
+Therefore, I will remove the original power supply from the Project and the Computer will be powered using an external 5 Volt source. This will reduce the overall size and weight of the computer.
+
+### Program Counter
+The schematic and functionality are unchanged from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
+
+For example, for 74LS107 the High to Low switching time is normally 15 ns. This time is desired as small as possible to have a high working speed of the computer. So if we consider the transition as half a period of a signal we obtain a maximum period of 30 ns. This corresponds to a frequency of 33 MHz. At these frequencies the wires on the PCB behave as inductances and will increase the switching time. To eliminate this phenomenon we put decoupling capacitors as close as possible to the power pins of the chip.
+
+The new schematic for the Program Counter Block is:
+
+![ Figure 29 ](/Pictures/Figure29.png)

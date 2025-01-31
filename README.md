@@ -400,18 +400,18 @@ In this version I will modify the ISAP-1 Computer by changing it from a Single B
 
 The functionality of the Computer does not change and the Instruction Set does not change.
 
-I will make improvements to the schematic by adding decoupling capacitors.
+Since the SAP-1 Computer does not have decoupling capacitors provided in the original schematic, I will make improvements to the electronic schematic by adding decoupling capacitors for each chip used.
 
 Since the SAP-1 Computer was originally designed in 1975, the power supply uses a mains transformer and a Linear Voltage Regulator. This technology is specific to that time period.
 
 Nowadays, building such a power supply is more expensive compared to modern switching power supplies that are easily available. The purchase price of just the mains transformer is comparable to the purchase price of a modern 5 Volt power supply.
 
-Therefore, I will remove the original power supply from the Project and the Computer will be powered using an external 5 Volt source. This will reduce the overall size and weight of the computer.
+Therefore, I will remove the original power supply from the Project and the Computer will be powered using an external 5 Volt source. This will reduce the overall size and weight of the Computer.
 
 ### Program Counter
 The schematic and functionality are unchanged from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
 
-For example, for 74LS107 the High to Low switching time is normally 15 ns. This time is desired as small as possible to have a high working speed of the computer. So if we consider the transition as half a period of a signal we obtain a maximum period of 30 ns. This corresponds to a frequency of 33 MHz. At these frequencies the wires on the PCB behave as inductances and will increase the switching time. To eliminate this phenomenon we put decoupling capacitors as close as possible to the power pins of the chip.
+For example, for 74LS107 the High to Low switching time is normally 15 ns. This time is desired as small as possible to have a high working speed of the Computer. So if we consider the transition as half a period of a signal we obtain a maximum period of 30 ns. This corresponds to a frequency of 33 MHz. At these frequencies the wires on the PCB behave as inductances and will increase the switching time. To eliminate this phenomenon we put decoupling capacitors as close as possible to the power pins of the chip.
 
 The new schematic for the Program Counter Block is:
 

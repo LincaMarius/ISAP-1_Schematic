@@ -628,3 +628,7 @@ To prevent the Modules from being mounted in the wrong orientation, which would 
 The new schematic for the Backplane Module for the ISAP-1 Model B Computer Version 1.2 is:
 
 ![ Figure 52 ](/Pictures/Figure52.png)
+
+This is the finished PCB layout for the Backplane Module of ISAP-1 Model B Computer Version 1.2
+
+![ Figure 53 ](/Pictures/Figure53.png)

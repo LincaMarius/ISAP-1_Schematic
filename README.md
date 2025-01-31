@@ -506,5 +506,6 @@ This is the finished PCB layout for the Control Block Module of ISAP-1 Model B C
 
 ![ Figure 38 ](/Pictures/Figure38.png)
 
+An overview of the completed PCB for the ISAP-1 Model B Computer Control Block Module Version 1.2 is as follows
 
-
+![ Figure 39 ](/Pictures/Figure39.png)

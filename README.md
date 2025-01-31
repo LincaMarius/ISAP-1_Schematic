@@ -72,7 +72,7 @@ The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identi
 
 ![ Figure 5 ](/Pictures/Figure5.png)
 
-Although the Memory subsystem is treated as a separate block, the scheme does not show any changes from the original one in SAP-1.
+Although the Memory subsystem is treated as a separate block, the schematic does not show any changes from the original one in SAP-1.
 
 I also highlighted the components that are part of the Front Panel
 
@@ -509,3 +509,25 @@ This is the finished PCB layout for the Control Block Module of ISAP-1 Model B C
 An overview of the completed PCB for the ISAP-1 Model B Computer Control Block Module Version 1.2 is as follows
 
 ![ Figure 39 ](/Pictures/Figure39.png)
+
+To indicate the wrong mounting position of this module, I positioned the J3 connector on the PCB offset from the J4 connector.
+
+If the module is mounted upside down due to the gap between the pins we will not have the alignment of the PCBs at the top. Normally the two PCBs should be at the same level at the top
+
+### Memory Module
+The modular version of the ISAP-1 Computer allows us to implement the Memory as an independent Module with its own PCB
+
+Now all switches used for memory programming have been moved to the Front Panel Module
+
+The functionality is unchanged from the original. I added a 100 nF decoupling capacitor for the chip used.
+
+This module communicates with the rest of the computer through the three System Buses. To connect the module to the buses, I added a connector marked J7 in the diagram.
+
+To prevent the Module from being mounted in the wrong orientation, which would lead to its failure, we added a special power connector offset from the Bus connector by 14 mm.
+
+The new schematic for the ISAP-1 Model B Computer Memory Module Version 1.2 is:
+
+![ Figure 40 ](/Pictures/Figure40.png)
+
+This is the finished PCB layout for the Memory Module of ISAP-1 Model B Computer Version 1.2
+

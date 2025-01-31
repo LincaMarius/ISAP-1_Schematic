@@ -636,3 +636,9 @@ This is the finished PCB layout for the Backplane Module of ISAP-1 Model B Compu
 An overview of the completed PCB for the ISAP-1 Model B Computer Backplane Module Version 1.2 is as follows
 
 ![ Figure 54 ](/Pictures/Figure54.png)
+
+The ISAP-1 Model B Version 1.2 computer project made in KiCAD is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ISAP-1_modelB_ver1_2.zip
+
+A total of 41 chips were used to build the ISAP-1 Model B Version 1.2 Computer. Compared to the ISAP-1 Model A Version 1.1 where 42 were used, we have a reduction in the number of chips by 1 pieces while maintaining the same functionality of the computer.
+

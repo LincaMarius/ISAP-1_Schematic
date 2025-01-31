@@ -460,6 +460,15 @@ The new schematic for Register B is:
 
 ![ Figure 34 ](/Pictures/Figure34.png)
 
+All these Modules are part of the Central Processing Unit of the ISAP-1 Model B Version 1.2 Computer
+
+This is what the completed PCB looks like for the Central Processing Unit of ISAP-1 Computer Model B Version 1.2
+
+![ Figure 35 ](/Pictures/Figure35.png)
+
+
+
+
 ### Control Unit
 The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.
 

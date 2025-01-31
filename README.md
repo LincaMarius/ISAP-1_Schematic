@@ -533,3 +533,6 @@ This is the finished PCB layout for the Memory Module of ISAP-1 Model B Computer
 
 ![ Figure 41 ](/Pictures/Figure41.png)
 
+An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Computer Memory Module is as follows
+
+![ Figure 42 ](/Pictures/Figure42.png)

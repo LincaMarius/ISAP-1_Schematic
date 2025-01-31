@@ -603,3 +603,7 @@ The new schematic for the Front Panel Module for the ISAP-1 Model B Computer Ver
 This is the finished PCB layout for the Front Panel Module of ISAP-1 Model B Computer Version 1.2
 
 ![ Figure 50 ](/Pictures/Figure50.png)
+
+An overview of the completed PCB for the ISAP-1 Model B Computer Front Panel Module Version 1.2 is as follows
+
+![ Figure 51 ](/Pictures/Figure51.png)

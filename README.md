@@ -582,3 +582,21 @@ This is the finished PCB layout for the Binary Display Module of ISAP-1 Model B 
 An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Binary Computer Display Module is as follows
 
 ![ Figure 48 ](/Pictures/Figure48.png)
+
+### Front Panel Module
+The modular version of the ISAP-1 Computer allows us to implement the Front Panel as an independent Module with its own PCB
+
+The schematic and functionality are unchanged from the original. I added a 100 nF decoupling capacitor for the chip used.
+
+I also added a 22 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
+This module communicates with the rest of the computer through the three system buses. To connect the module to the buses, I added a connector marked J12 in the diagram.
+
+To prevent the Module from being mounted in the wrong orientation, which would lead to its failure, I added a special power connector offset from the Bus connector by 14 mm, marked J11 in the diagram. The Module will stand vertically in the ISAP-1 Computer
+
+I designed this module to be positioned in position 1 on the BackPlane. This module will sit horizontally when attached to the BackPlane.
+
+The new schematic for the Front Panel Module for the ISAP-1 Model B Computer Version 1.2 is:
+
+![ Figure 49 ](/Pictures/Figure49.png)
+

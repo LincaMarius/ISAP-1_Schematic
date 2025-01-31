@@ -436,7 +436,7 @@ The new schematic for the Instruction Register is:
 ### Accumulator Register
 The schematic and functionality are unchanged from the original. I added decoupling capacitors with a value of 100 nF for each chip used.
 
-I also added a 100 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+I also added a 10 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
 
 The new schematic for the Accumulator Register is:
 

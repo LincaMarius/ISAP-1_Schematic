@@ -470,6 +470,13 @@ An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Central Proc
 
 ![ Figure 36 ](/Pictures/Figure36.png)
 
+At the bottom of the PCB we have the 4-pin J1 connector for 5V power supply and the 40-pin J2 connector for connection to the Bus.
+
+To reduce the size of the CPU module I decided to make the Control Block as an independent Module that will attach to the CPU Module like an extension.
+
+The connection between the CPU Module and the Control Unit Module is made through two 15-pin connectors each marked J3 and J4.
+
+By physically separating the Control Unit into an independent Module, it has the major advantage that for modifying the Instruction Set, most changes are made at the Control Block level while the rest of the modules remain unchanged.
 
 ### Control Unit
 The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.
@@ -493,7 +500,9 @@ I also added a 220 uF filter capacitor to filter out low frequency noise that ma
 
 The new schematic for the Control Unit is:
 
-![ Figure 35 ](/Pictures/Figure35.png)
+![ Figure 37 ](/Pictures/Figure37.png)
+
+
 
 
 

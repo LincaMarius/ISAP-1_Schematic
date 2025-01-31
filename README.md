@@ -521,6 +521,8 @@ Now all switches used for memory programming have been moved to the Front Panel 
 
 The functionality is unchanged from the original. I added a 100 nF decoupling capacitor for the chip used.
 
+I also added a 10 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
 This module communicates with the rest of the computer through the three System Buses. To connect the module to the buses, I added a connector marked J7 in the diagram.
 
 To prevent the Module from being mounted in the wrong orientation, which would lead to its failure, we added a special power connector offset from the Bus connector by 14 mm.
@@ -542,6 +544,8 @@ The modular version of the ISAP-1 Computer allows us to implement the Output Reg
 
 The schematic and functionality are unchanged from the original. I added a 100 nF decoupling capacitor for the chip used.
 
+I also added a 100 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
 This module communicates with the rest of the computer through the three system buses. To connect the module to the buses, I added a connector marked J9 in the diagram.
 
 To prevent the Module from being mounted in the wrong orientation, which would lead to its failure, I added a special power connector offset from the Bus connector by 14 mm, marked J8 in the diagram. The Module will stand vertically in the ISAP-1 Computer
@@ -552,3 +556,6 @@ The new schematic for the Output Register Module for the ISAP-1 Model B Computer
 
 ![ Figure 43 ](/Pictures/Figure43.png)
 
+This is the finished PCB layout for the Output Register Module of ISAP-1 Model B Computer Version 1.2
+
+![ Figure 44 ](/Pictures/Figure44.png)

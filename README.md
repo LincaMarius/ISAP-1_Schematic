@@ -607,3 +607,24 @@ This is the finished PCB layout for the Front Panel Module of ISAP-1 Model B Com
 An overview of the completed PCB for the ISAP-1 Model B Computer Front Panel Module Version 1.2 is as follows
 
 ![ Figure 51 ](/Pictures/Figure51.png)
+
+### Backplane Module
+The modular version of the ISAP-1 Computer allows us to implement the Backplane as an independent Module with its own PCB
+
+This module is an addition to the original scheme and is intended to ensure the modularity of the Computer.
+
+I also added a 100 uF filter capacitor to filter out low frequency noise that may appear on the power supply circuit.
+
+The LED marked D9 signals the presence of supply voltage. The current limiting resistor is calculated as follows:
+
+R11 = (Vcc – VF) / I_Led = (5V – 1.8V) / 15mA = 3.2V / 0.015A =  213 Ohms
+
+The closest standard value is 220 Ohm. VF = 1.8V was used to drive a red LED.
+
+The communication of all modules is done through the three buses (Address Bus, Data Bus and Command Bus) for which 7 40-pin connectors are provided, which are associated with 7 4-pin connectors for the 5 Volt power supply.
+
+To prevent the Modules from being mounted in the wrong orientation, which would lead to their failure, I added this power connector offset from the Bus connector.
+
+The new schematic for the Backplane Module for the ISAP-1 Model B Computer Version 1.2 is:
+
+![ Figure 52 ](/Pictures/Figure52.png)

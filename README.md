@@ -466,7 +466,9 @@ This is what the completed PCB looks like for the Central Processing Unit of ISA
 
 ![ Figure 35 ](/Pictures/Figure35.png)
 
+An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Central Processing Unit is as follows
 
+![ Figure 36 ](/Pictures/Figure36.png)
 
 
 ### Control Unit

@@ -564,13 +564,17 @@ An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Computer Out
 
 ![ Figure 45 ](/Pictures/Figure45.png)
 
-### Digital Display Module
-The modular version of the ISAP-1 Computer allows us to implement the Digital Display as an independent Module with its own PCB
+### Binary Display Module
+The modular version of the ISAP-1 Computer allows us to implement the Binary Display as an independent Module with its own PCB
 
 The schematic and functionality are unchanged from the original. 
 
 The Binary Display is designed as a separate Module and connects to the Output Register Module via the 10-pin connector marked J10 in the schematic.
 
-The new schematic for the Digital Display Module for the ISAP-1 Model B Computer Version 1.2 is:
+The new schematic for the Binary Display Module for the ISAP-1 Model B Computer Version 1.2 is:
 
 ![ Figure 46 ](/Pictures/Figure46.png)
+
+This is the finished PCB layout for the Binary Display Module of ISAP-1 Model B Computer Version 1.2
+
+![ Figure 47 ](/Pictures/Figure47.png)

@@ -531,3 +531,5 @@ The new schematic for the ISAP-1 Model B Computer Memory Module Version 1.2 is:
 
 This is the finished PCB layout for the Memory Module of ISAP-1 Model B Computer Version 1.2
 
+![ Figure 41 ](/Pictures/Figure41.png)
+

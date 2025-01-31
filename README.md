@@ -502,7 +502,9 @@ The new schematic for the Control Unit is:
 
 ![ Figure 37 ](/Pictures/Figure37.png)
 
+This is the finished PCB layout for the Control Block Module of ISAP-1 Model B Computer Version 1.2
 
+![ Figure 38 ](/Pictures/Figure38.png)
 
 
 

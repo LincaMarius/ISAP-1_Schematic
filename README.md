@@ -536,3 +536,19 @@ This is the finished PCB layout for the Memory Module of ISAP-1 Model B Computer
 An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Computer Memory Module is as follows
 
 ![ Figure 42 ](/Pictures/Figure42.png)
+
+### Output Register Module
+The modular version of the ISAP-1 Computer allows us to implement the Output Register as an independent Module with its own PCB
+
+The schematic and functionality are unchanged from the original. I added a 100 nF decoupling capacitor for the chip used.
+
+This module communicates with the rest of the computer through the three system buses. To connect the module to the buses, I added a connector marked J9 in the diagram.
+
+To prevent the Module from being mounted in the wrong orientation, which would lead to its failure, I added a special power connector offset from the Bus connector by 14 mm, marked J8 in the diagram. The Module will stand vertically in the ISAP-1 Computer
+
+The Binary Display is designed as a separate Module and connects to the Output Register Module via the 10-pin connector marked J10 in the schematic.
+
+The new schematic for the Output Register Module for the ISAP-1 Model B Computer Version 1.2 is:
+
+![ Figure 43 ](/Pictures/Figure43.png)
+

@@ -578,3 +578,7 @@ The new schematic for the Binary Display Module for the ISAP-1 Model B Computer 
 This is the finished PCB layout for the Binary Display Module of ISAP-1 Model B Computer Version 1.2
 
 ![ Figure 47 ](/Pictures/Figure47.png)
+
+An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Binary Computer Display Module is as follows
+
+![ Figure 48 ](/Pictures/Figure48.png)

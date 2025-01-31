@@ -559,3 +559,7 @@ The new schematic for the Output Register Module for the ISAP-1 Model B Computer
 This is the finished PCB layout for the Output Register Module of ISAP-1 Model B Computer Version 1.2
 
 ![ Figure 44 ](/Pictures/Figure44.png)
+
+An overview of the completed PCB for the ISAP-1 Model B Version 1.2 Computer Output Register Module is as follows
+
+![ Figure 45 ](/Pictures/Figure45.png)

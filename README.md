@@ -632,3 +632,7 @@ The new schematic for the Backplane Module for the ISAP-1 Model B Computer Versi
 This is the finished PCB layout for the Backplane Module of ISAP-1 Model B Computer Version 1.2
 
 ![ Figure 53 ](/Pictures/Figure53.png)
+
+An overview of the completed PCB for the ISAP-1 Model B Computer Backplane Module Version 1.2 is as follows
+
+![ Figure 54 ](/Pictures/Figure54.png)

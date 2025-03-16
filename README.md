@@ -5,7 +5,7 @@ ISAP Computer stands for Improved Simple as Possible Computer
 
 This is the stage of choosing the electronic components used to make the ISAP-1 computer and designing the electronic schematic.
 
-By: Lincă Marius Gheorghe.
+By: Lincă Marius Gheorghe,
 
 Pitești, Argeș, Romania, Europe.
 

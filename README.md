@@ -27,11 +27,11 @@ The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 
 Starting from this Block Diagram, I created the computer's electrical diagram in hierarchical form.
 
-
+![ Figure 2 ](/Pictures/Figure2.png)
 
 The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
-![ Figure 2 ](/Pictures/Figure2b.png)
+![ Figure 2b ](/Pictures/Figure2b.png)
 
 Initially, I used Altium Designer to design the Schematic and PCB.
 

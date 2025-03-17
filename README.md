@@ -37,7 +37,9 @@ Initially, I used Altium Designer to design the Schematic and PCB.
 
 But so that they can be viewed and possibly edited by anyone, I put the KiCAD-edited version on GitHub because this program is free and can be used freely by anyone.
 
-The implemented scheme will be almost identical to the original one of the SAP-1 Computer.
+The implemented schematic will be almost identical to the original one of the SAP-1 Computer.
+
+In the original schematic the chips are labeled C1 to C48. To eliminate confusion with the capacitor notation I have used the chip notation U1 to U49 as is used in modern days.
 
 ### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.

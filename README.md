@@ -31,7 +31,7 @@ Starting from this Block Diagram, I created the computer's electrical diagram in
 
 The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
-![ Figure 2b ](/Pictures/Figure2b.png)
+![ Figure 3 ](/Pictures/Figure3.png)
 
 Initially, I used Altium Designer to design the Schematic and PCB.
 
@@ -50,7 +50,7 @@ The output from the circuit to the bus is done using four three-state drivers, u
 
 The Schematic Diagram does has no changes from the original one.
 
-![ Figure 3 ](/Pictures/Figure3.png)
+![ Figure 3b ](/Pictures/Figure3b.png)
 
 ### Address Register Schematic
 In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.

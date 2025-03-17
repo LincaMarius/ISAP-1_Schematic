@@ -52,7 +52,7 @@ The output from the circuit to the bus is done using four three-state drivers, u
 
 The Schematic Diagram does has no changes from the original one.
 
-![ Figure 3b ](/Pictures/Figure3b.png)
+![ Figure 4 ](/Pictures/Figure4.png)
 
 ### Address Register Schematic
 In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.
@@ -67,7 +67,7 @@ Because the correspondence between inputs and outputs is maintained in both impl
 
 The Schematic Diagram does has no changes from the original one.
 
-![ Figure 4 ](/Pictures/Figure4.png)
+![ Figure 4b ](/Pictures/Figure4b.png)
 
 ### Memory Subsystem
 In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.

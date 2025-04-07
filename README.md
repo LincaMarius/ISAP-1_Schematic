@@ -1,9 +1,9 @@
-# ISAP-1 Computer Schematic
+# ISAP-1 Computer Schematic and PCB
 The ISAP-1 computer is the improved version of the SAP-1 computer made by me.
 
 ISAP Computer stands for Improved Simple as Possible Computer
 
-This is the stage of choosing the electronic components used to make the ISAP-1 computer and designing the electronic schematic.
+This is the stage of choosing the electronic components used to make the ISAP-1 computer and designing the Schematic.
 
 By: Lincă Marius Gheorghe,
 
@@ -17,10 +17,22 @@ The goal of this project is to create a more efficient version of the SAP (Simpl
 This project is part of a project made by me:
 https://github.com/LincaMarius/ISAP-Computer
 
-
 where I optimized the SAP-1 computer
 
-## ISAP-1 Model A Version 1
+## ISAP-1 TTL Version 1.0
+Version 1.0 of the ISAP-1 computer is based on the original SAP-1 computer schematic.
+
+We will use Transistor–transistor logic (TTL) technology from the 7400 series.
+
+I want to make the ISAP-1 computer in modular form
+
+After studying the block diagram, I came to the conclusion that we can systematize the ISAP-1 computer into the following blocks:
+- Power Supply
+- Clock and Reset
+- Central Processing Unit
+- Memory
+- Output
+
 The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)

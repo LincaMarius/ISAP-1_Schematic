@@ -42,6 +42,10 @@ Starting from this Block Diagram, I created the computer's electrical diagram in
 
 ![ Figure 2 ](/Pictures/Figure2.png)
 
+I will keep the chip numbering according to the original scheme of the SAP-1 computer.
+
+So I will implement the schematic in the order given by this initial numbering.
+
 The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
 ![ Figure 3 ](/Pictures/Figure3.png)
@@ -53,6 +57,10 @@ But so that they can be viewed and possibly edited by anyone, I put the KiCAD-ed
 The implemented schematic will be almost identical to the original one of the SAP-1 Computer.
 
 In the original schematic the chips are labeled C1 to C48. To eliminate confusion with the capacitor notation I have used the chip notation U1 to U49 as is used in modern days.
+
+First I will implement the Central Processing Unit which has the following schematic:
+
+![ Figure 4 ](/Pictures/Figure4.png)
 
 ### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.

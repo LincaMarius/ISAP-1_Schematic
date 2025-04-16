@@ -28,10 +28,11 @@ I want to make the ISAP-1 computer in modular form.
 
 After studying the block diagram, I came to the conclusion that we can systematize the ISAP-1 computer into the following modules:
 - Power Supply
-- Clock and Reset
+- Front Panel
 - Central Processing Unit
 - Memory
 - Output
+- Back Plane
 
 The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
 

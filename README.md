@@ -62,6 +62,16 @@ First I will implement the Central Processing Unit which has the following schem
 
 ![ Figure 4 ](/Pictures/Figure4.png)
 
+All functional blocks can be seen in the diagram in Figure 3.
+
+In addition, we have a connector marked J1M1 for connection to the Back Plane through which the supply voltage is provided.
+
+The connector marked J2M1 allows connection to the Base Plane and provides connections to the three system buses.
+
+I want to improve the ISAP-1 computer gradually by adding new instructions. This will lead to modifying the Control Block. In order not to modify the entire CPU module, I decided to implement the Control Block as a Daughter Board that attaches to the CPU module.
+
+For this purpose, we added the connectors marked J3F1 and J4F1 which are used to connect the Control Block to the CPU module.
+
 ### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.
 

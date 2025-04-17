@@ -206,7 +206,7 @@ In the SAP-1 computer the output device is called the Output Register and is pre
 
 The Binary Display is made with 8 LEDs connected directly to the output of the Output Register.
 
-![ Figure 11 ](/Pictures/Figure11.png)
+![ Figure 13 ](/Pictures/Figure13.png)
 
 ### Output Device
 In the original schematic, two 4-bit 74LS173 registers are used, denoted C22 and C23.

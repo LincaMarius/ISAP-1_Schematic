@@ -115,15 +115,23 @@ The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identi
 
 Although the Memory subsystem is treated as a separate block, the schematic does not show any changes from the original one in SAP-1.
 
-I also highlighted the components that are part of the Front Panel
+![ Figure 8 ](/Pictures/Figure8.png)
 
-![ Figure 6 ](/Pictures/Figure6.png)
+I added a connector marked J5M1 for connection to the Base Board through which the power supply is provided.
+
+The connector marked J6M1 allows connection to the Base Plane and provides connections to the three system buses.
+
+I also added 100nF decoupling capacitors for each integrated circuit used and a 100uF filter capacitor.
+
+The connector marked J7F allows the module to be connected to the Front Panel for address selection. The connector marked J8F allows the module to be connected to the Front Panel for data setting.
+
+The schematic has no other changes from the original schematic.
 
 The integrated circuit marked in the diagram C5 in the SAP-1 schematic and U5 in the ISAP-1 schematic of the 74LS157 type which consists of 4 2-to-1 multiplexers is used to select the address.
 
 If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
 
-From the catalog data of the 74LS189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the DM (CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
+From the catalog data of the 74189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the PM (original CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
 
 ### Instruction Register
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.

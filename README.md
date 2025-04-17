@@ -186,7 +186,7 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 11 ](/Pictures/Figure11.png)
 
-### Register B
+### Register B Schematic
 Register B acts as a temporary storage register, where the operand B required by the Adder to perform the Addition operation is loaded.
 
 In the original schematic, two 4-bit 74LS173 registers are used, denoted C20 and C21.
@@ -195,9 +195,11 @@ When the LB control signal is low and the rising edge of the clock signal occurs
 
 The output is connected to input B of the Adder and is permanently enabled by connecting pins 1 and 2 to ground.
 
+I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
+
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 10 ](/Pictures/Figure10.png)
+![ Figure 12 ](/Pictures/Figure12.png)
 
 ### Output Device – Binary Display
 In the SAP-1 computer the output device is called the Output Register and is present in the Block Diagram at the bottom right of the drawing.

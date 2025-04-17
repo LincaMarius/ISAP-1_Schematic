@@ -240,12 +240,24 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 15 ](/Pictures/Figure15.png)
 
-### Front Panel
-The control panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
+### Front Panel Schematic
+The Front Panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
+
+The switches used to set the Memory in Programming mode must also be placed on the Front Panel.
+
+The J7M connector transmits the address set by the SW1 switches to the Memory module.
+
+The J8M connector transmits the numerical value set by the SW3 switches to the Memory module.
+
+I added a connector marked J13M1 for connection to the Back Plane through which the power supply is provided.
+
+The connector marked J14M1 allows connection to the Base Plane and provides connections to the three system buses.
+
+I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
 
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 14 ](/Pictures/Figure14.png)
+![ Figure 16 ](/Pictures/Figure16.png)
 
 ### Control Unit
 The Control Unit's role is to direct the flow of data between the various Component Blocks of the Computer to ensure its operation and achieve the expected results.

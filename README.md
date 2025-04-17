@@ -111,7 +111,7 @@ In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and 
 
 The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identical to that of the SAP-1 computer is shown in the following figure
 
-![ Figure 5b ](/Pictures/Figure5b.png)
+![ Figure 7 ](/Pictures/Figure7.png)
 
 Although the Memory subsystem is treated as a separate block, the schematic does not show any changes from the original one in SAP-1.
 

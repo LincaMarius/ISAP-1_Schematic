@@ -274,7 +274,7 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 17 ](/Pictures/Figure17.png)
 
-### Power supply
+### Power Supply Schematic 
 The power supply's role is to provide the 5 Volt supply voltage and support the computer's power consumption.
 
 This power supply is powered directly from the Mains and consists of a step-down transformer followed by a full bridge rectifier and an integrated regulator of 5 Volts.
@@ -282,6 +282,8 @@ This power supply is powered directly from the Mains and consists of a step-down
 The transformer according to the Bill of Materials is of the F-25X type and has a primary voltage of 115 Volts, but in Europe a transformer with a primary voltage of 240 Volts is required.
 
 The secondary voltage according to the Materials List on page 502 in the original book is 12.6 Volts. Nowadays we can buy standard transformers with a secondary voltage of 12 Volts.
+
+The secondary current is a maximum of 1.5 Amps according to the same description.
 
 The nominal power of the transformer for a current consumption of maximum 1.5 Amps is 12V x 1.5A = 18 VA.
 

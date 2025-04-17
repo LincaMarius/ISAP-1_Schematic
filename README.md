@@ -146,11 +146,13 @@ But in the SAP-1 computer schematic, pin 14 which is D0 and pin 3 which is Q0 ar
 
 So, the order of inputs and outputs is reversed. Since the inputs and outputs are also reversed accordingly, the operation of the SAP-1 computer is normal.
 
-I connected the chip pins to the bus in the order given in the catalog sheets
+I connected the chip pins to the bus in the order given in the catalog sheets.
+
+I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
 
 The Schematic does not present any other changes compared to the original one.
 
-![ Figure 7 ](/Pictures/Figure7.png)
+![ Figure 9 ](/Pictures/Figure9.png)
 
 ### Accumulator Register
 The Accumulator register is made using two 4-bit 74LS173 type registers marked U10 and U11 in the diagram (in the original diagram they are marked C10 and C11).

@@ -85,7 +85,7 @@ The original schematic has no decoupling capacitors for the chips. For the compu
 
 So I added decoupling capacitors with a value of 100nF for each integrated circuit used and a 10uF filter capacitor.
 
-![ Figure 4 ](/Pictures/Figure4.png)
+![ Figure 5 ](/Pictures/Figure5.png)
 
 ### Address Register Schematic
 In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.
@@ -98,9 +98,11 @@ I modified the pin connections to the bus according to the catalog data for the 
 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
 
-The Schematic Diagram does has no changes from the original one.
+I added a decoupling capacitor with a value of 100nF.
 
-![ Figure 5 ](/Pictures/Figure5.png)
+The schematic has no other changes from the original schematic.
+
+![ Figure 6 ](/Pictures/Figure6.png)
 
 ### Memory Subsystem
 In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.

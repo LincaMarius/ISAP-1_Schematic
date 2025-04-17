@@ -104,7 +104,7 @@ The schematic has no other changes from the original schematic.
 
 ![ Figure 6 ](/Pictures/Figure6.png)
 
-### Memory Subsystem
+### Memory Subsystem Schematic
 In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.
 
 In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and the I/O Subsystem.
@@ -133,7 +133,7 @@ If switch SW2 is in the “Program” position, the address given by the Address
 
 From the catalog data of the 74189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the PM (original CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
 
-### Instruction Register
+### Instruction Register Schematic
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
 
 The first chip marked U8 in the diagram stores the upper nibble which represents the binary code of the instruction being executed.
@@ -154,7 +154,7 @@ The Schematic does not present any other changes compared to the original one.
 
 ![ Figure 9 ](/Pictures/Figure9.png)
 
-### Accumulator Register
+### Accumulator Register Schematic
 The Accumulator register is made using two 4-bit 74LS173 type registers marked U10 and U11 in the diagram (in the original diagram they are marked C10 and C11).
 
 Pin 1 and pin 2 are connected to ground which causes the outputs to be permanently active. Thus, the contents of the Accumulator Register are permanently transmitted to the ALU via signals AC0 to AC7.
@@ -171,7 +171,7 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 10 ](/Pictures/Figure10.png)
 
-### Arithmetic Unit
+### Adder / Subtractor Schematic
 The SAP-1 computer has no Logic Unit, it can only perform the Addition and Subtraction operations.
 
 The main element of the Arithmetic Unit is the 74LS83 chip which is a 4-bit Full Adder, so two such chips are used.
@@ -180,9 +180,11 @@ The Subtract Operation is performed by 2's Complementing the operand B. For this
 
 The result is transmitted on the Bus via 8 three-state buffers when the EU control signal is active. These buffers are of the 74LS126 type. Each chip has 4 buffers, so 2 chips are required.
 
+I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
+
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 9 ](/Pictures/Figure9.png)
+![ Figure 11 ](/Pictures/Figure11.png)
 
 ### Register B
 Register B acts as a temporary storage register, where the operand B required by the Adder to perform the Addition operation is loaded.

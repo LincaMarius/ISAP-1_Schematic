@@ -79,9 +79,11 @@ Counting is done when the CP control signal is active and the falling edge of th
 
 The Program Counter has its output connected to the Bus, therefore it must be Tri-State. A 74LS126 chip is used for this purpose
 
-The output from the circuit to the bus is done using four three-state drivers, using a 74LS126 integrated circuit.
+The Schematic does has no changes from the original one.
 
-The Schematic Diagram does has no changes from the original one.
+The original schematic has no decoupling capacitors for the chips. For the computer's operating speed of 1kHz this may not matter. But I added a decoupling capacitor for each chip and a filter capacitor for each block.
+
+So I added decoupling capacitors with a value of 100nF for each integrated circuit used and a 10uF filter capacitor.
 
 ![ Figure 4 ](/Pictures/Figure4.png)
 

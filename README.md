@@ -208,16 +208,24 @@ The Binary Display is made with 8 LEDs connected directly to the output of the O
 
 ![ Figure 13 ](/Pictures/Figure13.png)
 
-### Output Device
+### Output Device Schematic
 In the original schematic, two 4-bit 74LS173 registers are used, denoted C22 and C23.
 
-When the LO control signal is low and the rising edge of the clock signal appears, the data present on the Bus is loaded into the registers.
+When the I/O control signal (the original LO) is low and the rising edge of the clock signal appears, the data present on the Bus is loaded into the registers.
 
 The output is permanently active because pins 1 and 2 are connected to ground. The outputs are labeled O0 to O7.
 
+I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
+
+The J11F connector presents the numeric value stored in permanent registers to be retrieved by the Display.
+
+I added a connector marked J9M1 for connection to the Back Plane through which the power supply is provided.
+
+The connector marked J10M1 allows connection to the Base Plane and provides connections to the three system buses.
+
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 12 ](/Pictures/Figure12.png)
+![ Figure 14 ](/Pictures/Figure14.png)
 
 ### Binary Display
 The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.

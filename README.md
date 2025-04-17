@@ -227,10 +227,14 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 14 ](/Pictures/Figure14.png)
 
-### Binary Display
+### Binary Display Schematic
 The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.
 
-The current is limited by resistors for a red LED to the value of (Voh – Vled) / (R + Rint) = (2.4V – 1.8V) / (1000 + 100) = 0.5 / 1100 = 0.5mA (theoretical)
+The current is limited by resistors for a red LED to the value of (Voh – Vled) / (R + Rint) = (2.4V – 1.8V) / (1000 + 100) = 0.5 / 1100 = 0.5mA (theoretical).
+
+This module is designed to be attached as a daughterboard to the Output Device via connector J11.
+
+This way I can replace the Binary Display with a more advanced one without modifying the other modules of the computer.
 
 The schematic does not present any other changes compared to the original one.
 

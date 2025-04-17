@@ -238,7 +238,7 @@ This way I can replace the Binary Display with a more advanced one without modif
 
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 13 ](/Pictures/Figure13.png)
+![ Figure 15 ](/Pictures/Figure15.png)
 
 ### Front Panel
 The control panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.

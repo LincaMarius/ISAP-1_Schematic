@@ -239,6 +239,10 @@ This is what the completed PCB looks like for the ISAP-1 TTL Computer Output Mod
 
 ![ Figure 14b ](/Pictures/Figure14b.png)
 
+An overview of the Output Module is shown in the following figure.
+
+![ Figure 14c ](/Pictures/Figure14c.png)
+
 ### Binary Display Schematic
 The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.
 

@@ -321,6 +321,10 @@ To dissipate this power, we have provided a radiator to cool the integrated stab
 
 ![ Figure 18 ](/Pictures/Figure18.png)
 
+An overview of the Power Supply PCB is shown in the following figure.
+
+![ Figure 19 ](/Pictures/Figure19.png)
+
 ### Debug Unit
 The diagnostic unit is added by me and is not present in the original design of the SAP-1 computer.
 

@@ -321,9 +321,13 @@ To dissipate this power, we have provided a radiator to cool the integrated stab
 
 ![ Figure 18 ](/Pictures/Figure18.png)
 
-An overview of the Power Supply PCB is shown in the following figure.
+This is what the completed PCB looks like for the ISAP-1 TTL Computer Power Supply Version 1.0
 
 ![ Figure 19 ](/Pictures/Figure19.png)
+
+An overview of the Power Supply is shown in the following figure.
+
+![ Figure 20 ](/Pictures/Figure20.png)
 
 ### Debug Unit
 The diagnostic unit is added by me and is not present in the original design of the SAP-1 computer.

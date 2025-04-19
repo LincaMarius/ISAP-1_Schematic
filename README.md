@@ -256,6 +256,10 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 15 ](/Pictures/Figure15.png)
 
+This is what the completed PCB looks like for the ISAP-1 TTL Computer Binary Display Version 1.0
+
+![ Figure 15b ](/Pictures/Figure15b.png)
+
 ### Front Panel Schematic
 The Front Panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
 

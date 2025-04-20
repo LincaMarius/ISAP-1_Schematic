@@ -297,6 +297,8 @@ I designed this part as a separate module that can be attached to the Memory Mod
 
 The switches can be mounted on this module or mounted on a Front Panel and connected via wires.
 
+![ Figure 17 ](/Pictures/Figure17.png)
+
 
 ### Control Unit Schematic
 The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.

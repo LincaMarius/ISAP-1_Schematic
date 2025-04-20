@@ -303,6 +303,10 @@ This is what the completed PCB looks like for the ISAP-1 TTL Computer RAM Edit M
 
 ![ Figure 17b ](/Pictures/Figure17b.png)
 
+An overview of the RAM Edit Mode is shown in the following figure.
+
+![ Figure 17c ](/Pictures/Figure17c.png)
+
 ### Control Unit Schematic
 The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.
 

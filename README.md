@@ -279,6 +279,10 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 16 ](/Pictures/Figure16.png)
 
+This is what the completed PCB looks like for the ISAP-1 TTL Computer Front Panel Version 1.0
+
+![ Figure 16b ](/Pictures/Figure16b.png)
+
 The switches used to set the Memory in Programming mode must also be placed on the Front Panel.
 
 The J7M connector transmits the address set by the SW1 switches to the Memory module.

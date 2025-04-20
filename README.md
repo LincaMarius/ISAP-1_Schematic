@@ -299,6 +299,9 @@ The switches can be mounted on this module or mounted on a Front Panel and conne
 
 ![ Figure 17 ](/Pictures/Figure17.png)
 
+This is what the completed PCB looks like for the ISAP-1 TTL Computer RAM Edit Module Version 1.0
+
+![ Figure 17b ](/Pictures/Figure17b.png)
 
 ### Control Unit Schematic
 The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.

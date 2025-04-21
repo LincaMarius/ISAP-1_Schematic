@@ -320,7 +320,7 @@ I added 100nF decoupling capacitors for each integrated circuit used and a 10uF 
 
 The schematic does not present any other changes compared to the original one.
 
-![ Figure 17 ](/Pictures/Figure17.png)
+![ Figure 18](/Pictures/Figure18.png)
 
 ### Power Supply Schematic 
 The power supply's role is to provide the 5 Volt supply voltage and support the computer's power consumption.

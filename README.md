@@ -322,6 +322,10 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 18](/Pictures/Figure18.png)
 
+This is what the completed PCB for the ISAP-1 TTL Computer Control Unit Version 1.0 looks like
+
+![ Figure 18b ](/Pictures/Figure18b.png)
+
 ### Power Supply Schematic 
 The power supply's role is to provide the 5 Volt supply voltage and support the computer's power consumption.
 

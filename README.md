@@ -409,9 +409,19 @@ This is what the completed PCB looks like for the ISAP-1 TTL Computer Back Plane
 
 ![ Figure 23 ](/Pictures/Figure23.png)
 
-This is what the completed PCB looks like for ISAP-1 Model A Version 1.0
+5 Volt power supply is provided using a normal Jack plug.
 
-![ Figure 19 ](/Pictures/Figure19.png)
+In this version the ISAP-1 computer has 4 modules:
+- CPU Module
+- Front Panel Module
+- Memory Module
+- Output Module
+
+I designed the Back Plane to accept 6 modules so that in the future we may be able to design and add two more modules without having to modify anything.
+
+An overview of the Back Plane is presented in the following figure.
+
+![ Figure 24 ](/Pictures/Figure24.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_modelA_ver1_0.zip

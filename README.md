@@ -379,7 +379,7 @@ To dissipate this power, we have provided a radiator to cool the integrated stab
 
 This is what the completed PCB looks like for the ISAP-1 TTL Computer Power Supply Version 1.0
 
-![ Figure 19 ](/Pictures/Figure19.png)
+![ Figure 19b ](/Pictures/Figure19b.png)
 
 An overview of the Power Supply is shown in the following figure.
 

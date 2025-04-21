@@ -405,9 +405,9 @@ Its schematic is shown in the following figure.
 
 ![ Figure 22 ](/Pictures/Figure22.png)
 
-An overview of the PCB is shown in the following figure
+This is what the completed PCB looks like for the ISAP-1 TTL Computer Back Plane Version 1.0
 
-![ Figure 18 ](/Pictures/Figure18.png)
+![ Figure 23 ](/Pictures/Figure23.png)
 
 This is what the completed PCB looks like for ISAP-1 Model A Version 1.0
 

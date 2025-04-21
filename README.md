@@ -396,10 +396,14 @@ An overview of the Central Processing Unit is shown in the following figure.
 
 ![ Figure 21 ](/Pictures/Figure21.png)
 
-### ISAP-1 computer assembly
-The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows
+### Back Plane Schematic
+To interconnect all the modules described so far, we need the Back Plane.
 
-![ Figure 17 ](/Pictures/Figure17.png)
+Its role is to ensure the power supply of all modules but also the connection to the three Busses of the ISAP-1 computer.
+
+Its schematic is shown in the following figure.
+
+![ Figure 22 ](/Pictures/Figure22.png)
 
 An overview of the PCB is shown in the following figure
 

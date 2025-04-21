@@ -385,18 +385,12 @@ An overview of the Power Supply is shown in the following figure.
 
 ![ Figure 19c ](/Pictures/Figure19c.png)
 
-### Debug Unit
-The diagnostic unit is added by me and is not present in the original design of the SAP-1 computer.
+### Central Processing Unit PCB
+The Central Processing Unit of the ISAP-1 computer has the schematic shown in [ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/Pictures/Figure4.png?raw=true)
 
-Its role is to visually present the status of the CPU unit by attaching an LED to each signal that controls its operation, which represents the Control Monitor.
+Based on this I made the PCB which is shown in the following figure
 
-I also attached an LED to each bit of the Data Bus and Address Bus, which represents the Bus Monitor.
-
-*For each signal we used an inverter or a buffer. This creates a separation between the signal and the LED control circuit. This is necessary to keep the Fan-out of the logic circuit outputs within the limit imposed by the manufacturer in order to keep all monitored signals within the limits of the logic levels.*
-
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
-
-![ Figure 19 ](/Pictures/Figure19.png)
+![ Figure 20 ](/Pictures/Figure20.png)
 
 ### ISAP-1 computer assembly
 The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows

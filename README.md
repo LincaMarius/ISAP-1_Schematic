@@ -392,6 +392,10 @@ Based on this I made the PCB which is shown in the following figure
 
 ![ Figure 20 ](/Pictures/Figure20.png)
 
+An overview of the Central Processing Unit is shown in the following figure.
+
+![ Figure 21 ](/Pictures/Figure21.png)
+
 ### ISAP-1 computer assembly
 The Hierarchical Structure Diagram of the ISAP-1 Computer is as follows
 

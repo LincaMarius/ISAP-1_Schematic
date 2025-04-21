@@ -375,7 +375,7 @@ The maximum power dissipated by the LM340T-5 or LM7805 integrated regulator is: 
 
 To dissipate this power, we have provided a radiator to cool the integrated stabilizer. Otherwise, it will go into overtemperature protection.
 
-![ Figure 18 ](/Pictures/Figure18.png)
+![ Figure 19 ](/Pictures/Figure19.png)
 
 This is what the completed PCB looks like for the ISAP-1 TTL Computer Power Supply Version 1.0
 

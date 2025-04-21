@@ -383,7 +383,7 @@ This is what the completed PCB looks like for the ISAP-1 TTL Computer Power Supp
 
 An overview of the Power Supply is shown in the following figure.
 
-![ Figure 20 ](/Pictures/Figure20.png)
+![ Figure 19c ](/Pictures/Figure19c.png)
 
 ### Debug Unit
 The diagnostic unit is added by me and is not present in the original design of the SAP-1 computer.

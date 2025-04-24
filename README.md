@@ -82,13 +82,11 @@ Note that the connection of the inputs to the data bus is in reverse order in th
 
 The outputs are also connected in the reverse order. The operation of the SAP-1 computer is not affected by this order because the correspondence between inputs and outputs is maintained.
 
-I modified the pin connections to the bus according to the catalog data for the 74LS173.
+I modified the pin connection to the bus according to the assignment in the 74LS173 chip datasheet.
 
 Because the correspondence between inputs and outputs is maintained in both implementations, the operation of the computer is not influenced.
 
-I added a decoupling capacitor with a value of 100nF.
-
-The schematic has no other changes from the original schematic.
+The current schematic has no other changes compared to the original schematic.
 
 ![ Figure 6 ](/Pictures/Figure6.png)
 

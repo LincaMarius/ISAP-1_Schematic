@@ -24,17 +24,7 @@ Version 1.0 of the ISAP-1 computer is based on the original SAP-1 computer schem
 
 We will use Transistor–transistor logic (TTL) technology from the 7400 series.
 
-I want to make the ISAP-1 computer in modular form.
-
-After studying the block diagram, I came to the conclusion that we can systematize the ISAP-1 computer into the following modules:
-- Power Supply
-- Front Panel
-- Central Processing Unit
-- Memory
-- Output
-- Back Plane
-
-The final structure of the SAP-1 computer and implicitly the ISAP-1 computer is:
+The structure of the SAP-1 computer and by implication the ISAP-1 computer is:
 
 ![ Figure 1 ](/Pictures/Figure1.png)
 

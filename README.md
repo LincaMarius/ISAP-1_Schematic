@@ -32,9 +32,9 @@ Starting from this Block Diagram, I created the computer's electrical diagram in
 
 ![ Figure 2 ](/Pictures/Figure2.png)
 
-I will keep the chip numbering according to the original scheme of the SAP-1 computer.
+I will keep the chip numbering order according to the original schematic of the SAP-1 computer.
 
-So I will implement the schematic in the order given by this initial numbering.
+Thus, I will implement the schematic of each block in the order given by this initial numbering established by the book's authors.
 
 The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
@@ -42,7 +42,7 @@ The original block diagram of the Central Processing Unit of the SAP-1 computer 
 
 Initially, I used Altium Designer to design the Schematic and PCB.
 
-But so that they can be viewed and possibly edited by anyone, I put the KiCAD-edited version on GitHub because this program is free and can be used freely by anyone.
+But, so that this schematic can be viewed and possibly edited by anyone, I put the version edited with KiCAD on GitHub, because this program is free and can be freely used by anyone.
 
 The implemented schematic will be almost identical to the original one of the SAP-1 Computer.
 

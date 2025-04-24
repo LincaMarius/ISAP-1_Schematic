@@ -113,12 +113,6 @@ If switch SW2 is in the “Program” position, the address given by the Address
 
 From the catalog data of the 74189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the PM (original CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
 
-![ Figure 8b ](/Pictures/Figure8b.png)
-
-An overview of the Memory Module is shown in the following figure.
-
-![ Figure 8c ](/Pictures/Figure8c.png)
-
 ### Instruction Register Schematic
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
 

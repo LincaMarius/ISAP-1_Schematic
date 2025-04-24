@@ -103,13 +103,7 @@ Although the Memory subsystem is treated as a separate block, the schematic does
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
-I added a connector marked J5M1 for connection to the Base Board through which the power supply is provided.
-
-The connector marked J6M1 allows connection to the Base Plane and provides connections to the three system buses.
-
-I also added 100nF decoupling capacitors for each integrated circuit used and a 100uF filter capacitor.
-
-The connector marked J7F allows the module to be connected to the Front Panel for address selection. The connector marked J8F allows the module to be connected to the Front Panel for data setting.
+I added two pairs of connectors marked J3, J4 and J5, J6 for connection to the Front Panel if it is made on a separate PCB.
 
 The schematic has no other changes from the original schematic.
 
@@ -118,8 +112,6 @@ The integrated circuit marked in the diagram C5 in the SAP-1 schematic and U5 in
 If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
 
 From the catalog data of the 74189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the PM (original CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
-
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Memory Module Version 1.0
 
 ![ Figure 8b ](/Pictures/Figure8b.png)
 

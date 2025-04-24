@@ -54,26 +54,24 @@ First I will implement the Central Processing Unit which has the following schem
 
 All functional blocks can be seen in the diagram in Figure 3.
 
-In addition, we have a connector marked J1M1 for connection to the Back Plane through which the supply voltage is provided.
-
-The connector marked J2M1 allows connection to the Base Plane and provides connections to the three system buses.
-
-I want to improve the ISAP-1 computer gradually by adding new instructions. This will lead to modifying the Control Block. In order not to modify the entire CPU module, I decided to implement the Control Block as a Daughter Board that attaches to the CPU module.
-
-For this purpose, we added the connectors marked J3F1 and J4F1 which are used to connect the Control Block to the CPU module.
+In addition, we have a connector added by me marked J1 through which the supply voltage can be provided if the Power Supply is made on a separate PCB.
 
 ### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.
 
 Counting is done when the CP control signal is active and the falling edge of the clock signal appears.
 
+This action occurs for any instruction during [ microstep T2 ](https://github.com/LincaMarius/ISAP-1_Instruction_Set/blob/main/Pictures/Figure3.png).
+
 The Program Counter has its output connected to the Bus, therefore it must be Tri-State. A 74LS126 chip is used for this purpose
+
+The output is active only when the EP control signal is high.
+
+This action occurs for any instruction during [ microstep T1 ](https://github.com/LincaMarius/ISAP-1_Instruction_Set/blob/main/Pictures/Figure3.png).
 
 The Schematic does has no changes from the original one.
 
-The original schematic has no decoupling capacitors for the chips. For the computer's operating speed of 1kHz this may not matter. But I added a decoupling capacitor for each chip and a filter capacitor for each block.
-
-So I added decoupling capacitors with a value of 100nF for each integrated circuit used and a 10uF filter capacitor.
+The original schematic has no decoupling capacitors for the chips. For the computer's operating speed of 1kHz this may not matter.
 
 ![ Figure 5 ](/Pictures/Figure5.png)
 

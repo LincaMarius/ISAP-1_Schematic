@@ -103,7 +103,7 @@ Although the Memory subsystem is treated as a separate block, the schematic does
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
-I added two pairs of connectors marked J3, J4 and J5, J6 for connection to the Front Panel if it is made on a separate PCB.
+I added two pairs of connectors marked J3_1, J3_2 și J4_1, J4_2 for connection to the Front Panel if it is made on a separate PCB.
 
 The schematic has no other changes from the original schematic.
 
@@ -127,8 +127,6 @@ But in the SAP-1 computer schematic, pin 14 which is D0 and pin 3 which is Q0 ar
 So, the order of inputs and outputs is reversed. Since the inputs and outputs are also reversed accordingly, the operation of the SAP-1 computer is normal.
 
 I connected the chip pins to the bus in the order given in the catalog sheets.
-
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
 
 The Schematic does not present any other changes compared to the original one.
 

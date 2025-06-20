@@ -19,7 +19,7 @@ https://github.com/LincaMarius/ISAP-Computer
 
 where I optimized the SAP-1 computer
 
-## ISAP-1 TTL Version 1.0
+## ISAP-1 TTL Single Board Computer version 1.0
 Version 1.0 of the ISAP-1 computer is based on the original SAP-1 computer schematic.
 
 We will use Transistor–transistor logic (TTL) technology from the 7400 series.

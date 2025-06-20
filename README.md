@@ -54,7 +54,7 @@ First I will implement the Central Processing Unit which has the following schem
 
 All functional blocks can be seen in the diagram in Figure 3.
 
-In addition, we have a connector added by me marked J1 through which the supply voltage can be provided if the Power Supply is made on a separate PCB.
+In addition, we have a connector added by me marked J11 through which the supply voltage can be provided if the Power Supply is made on a separate PCB.
 
 ### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.

@@ -156,8 +156,6 @@ The Subtract Operation is performed by 2's Complementing the operand B. For this
 
 The result is transmitted on the Bus via 8 three-state buffers when the EU control signal is active. These buffers are of the 74LS126 type. Each chip has 4 buffers, so 2 chips are required.
 
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
-
 The schematic does not present any other changes compared to the original one.
 
 ![ Figure 11 ](/Pictures/Figure11.png)

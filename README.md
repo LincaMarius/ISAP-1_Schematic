@@ -235,7 +235,7 @@ The power supply's role is to provide the 5 Volt supply voltage and support the 
 
 This power supply is powered directly from the Mains and consists of a step-down transformer followed by a full bridge rectifier and an integrated regulator of 5 Volts.
 
-The transformer according to the Bill of Materials is of the F-25X type and has a primary voltage of 115 Volts, but in Europe a transformer with a primary voltage of 240 Volts is required.
+The transformer according to the Bill of Materials is of the F-25X type and has a primary voltage of 115 Volts, but in Europe a transformer with a primary voltage of 230 Volts is required.
 
 The secondary voltage according to the Materials List on page 502 in the original book is 12.6 Volts. Nowadays we can buy standard transformers with a secondary voltage of 12 Volts.
 
@@ -275,53 +275,21 @@ The maximum power dissipated by the LM340T-5 or LM7805 integrated regulator is: 
 
 To dissipate this power, we have provided a radiator to cool the integrated stabilizer. Otherwise, it will go into overtemperature protection.
 
+I added a 100nF ceramic capacitor to the input and output of the integrated voltage regulator to meet the stability requirements according to the datasheet data.
+
+The schematic does not present any other changes compared to the original one.
+
 ![ Figure 19 ](/Pictures/Figure19.png)
 
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Power Supply Version 1.0
+### ISAP-1 TTL SBC assembly
+To power the computer with 5 volts, I included a Barrel Jack.
 
-![ Figure 19b ](/Pictures/Figure19b.png)
+The schematic does not present any other changes compared to the original one.
 
-An overview of the Power Supply is shown in the following figure.
-
-![ Figure 19c ](/Pictures/Figure19c.png)
-
-### Central Processing Unit PCB
-The Central Processing Unit of the ISAP-1 computer has the schematic shown in [ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/Pictures/Figure4.png?raw=true)
-
-Based on this I made the PCB which is shown in the following figure
+An overview of the PCB for the Single Board Computer variant of the ISAP-1 Computer is shown in the following figure:
 
 ![ Figure 20 ](/Pictures/Figure20.png)
 
-An overview of the Central Processing Unit is shown in the following figure.
-
-![ Figure 21 ](/Pictures/Figure21.png)
-
-### Back Plane Schematic
-To interconnect all the modules described so far, we need the Back Plane.
-
-Its role is to ensure the power supply of all modules but also the connection to the three Busses of the ISAP-1 computer.
-
-Its schematic is shown in the following figure.
-
-![ Figure 22 ](/Pictures/Figure22.png)
-
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Back Plane Version 1.0
-
-![ Figure 23 ](/Pictures/Figure23.png)
-
-5 Volt power supply is provided using a normal Jack plug.
-
-In this version the ISAP-1 computer has 4 modules:
-- CPU Module
-- Front Panel Module
-- Memory Module
-- Output Module
-
-I designed the Back Plane to accept 6 modules so that in the future we may be able to design and add two more modules without having to modify anything.
-
-An overview of the Back Plane is presented in the following figure.
-
-![ Figure 24 ](/Pictures/Figure24.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_TTL_ver1_0.zip

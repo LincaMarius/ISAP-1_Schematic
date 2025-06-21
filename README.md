@@ -169,8 +169,6 @@ When the LB control signal is low and the rising edge of the clock signal occurs
 
 The output is connected to input B of the Adder and is permanently enabled by connecting pins 1 and 2 to ground.
 
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
-
 The schematic does not present any other changes compared to the original one.
 
 ![ Figure 12 ](/Pictures/Figure12.png)

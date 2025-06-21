@@ -295,7 +295,7 @@ An overview for the ISAP-1 TTL SBC Computer is shown in the following figure:
 ![ Figure 21 ](/Pictures/Figure21.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
-https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_TTL_ver1_0.zip
+https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP1_TTL_SBC_ver1_0.zip
 
 *A total of 48 chips were used to implement this version of the ISAP-1 computer.*
 

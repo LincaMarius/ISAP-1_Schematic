@@ -290,6 +290,9 @@ An overview of the PCB for the Single Board Computer variant of the ISAP-1 Compu
 
 ![ Figure 20 ](/Pictures/Figure20.png)
 
+An overview for the ISAP-1 TTL SBC Computer is shown in the following figure:
+
+![ Figure 21 ](/Pictures/Figure21.png)
 
 The ISAP-1 computer project made in KiCAD is here: \
 https://github.com/LincaMarius/ISAP-1_Schematic/tree/main/KiCAD/ISAP-1_TTL_ver1_0.zip

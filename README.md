@@ -187,25 +187,11 @@ When the I/O control signal (the original LO) is low and the rising edge of the 
 
 The output is permanently active because pins 1 and 2 are connected to ground. The outputs are labeled O0 to O7.
 
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
-
-The J11F connector presents the numeric value stored in permanent registers to be retrieved by the Display.
-
-I added a connector marked J9M1 for connection to the Back Plane through which the power supply is provided.
-
-The connector marked J10M1 allows connection to the Base Plane and provides connections to the three system buses.
+I added the connectors marked J2_1 and J2_2 for connection to the Base PCB in case the Binary Display PCB separates from the computer PCB.
 
 The schematic does not present any other changes compared to the original one.
 
 ![ Figure 14 ](/Pictures/Figure14.png)
-
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Output Module Version 1.0
-
-![ Figure 14b ](/Pictures/Figure14b.png)
-
-An overview of the Output Module is shown in the following figure.
-
-![ Figure 14c ](/Pictures/Figure14c.png)
 
 ### Binary Display Schematic
 The Binary Display consists of eight LEDs connected to eight current limiting resistors of 1k ohm each.

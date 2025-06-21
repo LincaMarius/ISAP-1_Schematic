@@ -204,56 +204,20 @@ The schematic does not present any other changes compared to the original one.
 
 ![ Figure 15 ](/Pictures/Figure15.png)
 
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Binary Display Version 1.0
-
-![ Figure 15b ](/Pictures/Figure15b.png)
-
-An overview for the Binary Display is shown in the following figure
-
-![ Figure 15c ](/Pictures/Figure15c.png)
-
 ### Front Panel Schematic
 The Front Panel provides the user interface. Contains the Reset circuit, Manual/Automatic mode selector, Step button, main clock.
 
-I added 100nF decoupling capacitors for each integrated circuit used and a 10uF filter capacitor.
+I added two connectors marked J5_1 and J5_2 for connection to the Base PCB in case the Front Panel PCB is separated and used separately from the ISAP-1 computer PCB.
 
-I added a connector marked J13M1 for connection to the Back Plane through which the power supply is provided.
-
-The connector marked J14M1 allows connection to the Base Plane and provides connections to the three system buses.
-
-The switches can be mounted on this module or mounted on a Front Panel and connected via wires.
+The switches can be mounted on this PCB or mounted on a Front Panel and connected via wires.
 
 The schematic does not present any other changes compared to the original one.
 
 ![ Figure 16 ](/Pictures/Figure16.png)
 
-This is what the completed PCB looks like for the ISAP-1 TTL Computer Front Panel Version 1.0
-
-![ Figure 16b ](/Pictures/Figure16b.png)
-
-An overview of the Front Panel is shown in the following figure.
-
-![ Figure 16c ](/Pictures/Figure16c.png)
-
 The switches used to set the Memory in Programming mode must also be placed on the Front Panel.
 
-The J7M connector transmits the address set by the SW1 switches to the Memory module.
-
-The J8M connector transmits the numerical value set by the SW3 switches to the Memory module.
-
-I designed this part as a separate module that can be attached to the Memory Module as a daughter board.
-
 The switches can be mounted on this module or mounted on a Front Panel and connected via wires.
-
-![ Figure 17 ](/Pictures/Figure17.png)
-
-This is what the completed PCB looks like for the ISAP-1 TTL Computer RAM Edit Module Version 1.0
-
-![ Figure 17b ](/Pictures/Figure17b.png)
-
-An overview of the RAM Edit Mode is shown in the following figure.
-
-![ Figure 17c ](/Pictures/Figure17c.png)
 
 ### Control Unit Schematic
 The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.

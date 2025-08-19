@@ -31,6 +31,7 @@ I want to make the ISAP-1 computer in modular form. So I modified the Structural
 It turns out that we will have the following modules:
 - Reset and Clock
 - ISAP-1 CPU
+- Control Unit
 - RAM Memory
 - Output Display
 - Back Plane

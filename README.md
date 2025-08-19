@@ -26,7 +26,7 @@ The structure of the SAP-1 computer and by implication the ISAP-1 computer is:
 
 I want to make the ISAP-1 computer in modular form. So I modified the Structural Diagram like this:
 
-
+![ Figure 50 ](/Pictures/Figure50.png)
 
 Starting from this Block Diagram, I created the computer's electrical diagram in hierarchical form.
 

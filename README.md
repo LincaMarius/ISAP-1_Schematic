@@ -28,6 +28,20 @@ I want to make the ISAP-1 computer in modular form. So I modified the Structural
 
 ![ Figure 50 ](/Pictures/Figure50.png)
 
+It turns out that we will have the following modules:
+- Reset and Clock
+- ISAP-1 CPU
+- RAM Memory
+- Output Display
+- Back Plane
+
+The SAP-1 computer was designed using 7400 series TTL chips in the LS (Low-Power Schottky) variant. Since version 0.1 of the ISAP-1 computer will be an almost identical copy of the SAP-1 computer, I will still use TTL technology.
+
+
+
+
+
+
 Starting from this Block Diagram, I created the computer's electrical diagram in hierarchical form.
 
 ![ Figure 2 ](/Pictures/Figure2.png)

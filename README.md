@@ -38,22 +38,22 @@ It turns out that we will have the following modules:
 
 The SAP-1 computer was designed using 7400 series TTL chips in the LS (Low-Power Schottky) variant. Since version 0.1 of the ISAP-1 computer will be an almost identical copy of the SAP-1 computer, I will still use TTL technology.
 
-
-
-
-
-
-Starting from this Block Diagram, I created the computer's electrical diagram in hierarchical form.
-
-![ Figure 2 ](/Pictures/Figure2.png)
-
 I will keep the chip numbering order according to the original schematic of the SAP-1 computer.
 
-Thus, I will implement the schematic of each block in the order given by this initial numbering established by the book's authors.
+### Central Processing Unit Schematic
+The first module designed is the Central Processing Unit module.
 
 The original block diagram of the Central Processing Unit of the SAP-1 computer and implicitly of the ISAP-1 computer is:
 
-![ Figure 3 ](/Pictures/Figure3.png)
+![ Figure 51 ](/Pictures/Figure51.png)
+
+
+
+
+
+
+
+
 
 Initially, I used Altium Designer to design the Schematic and PCB.
 

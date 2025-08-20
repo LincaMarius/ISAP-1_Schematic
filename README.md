@@ -17,7 +17,7 @@ https://github.com/LincaMarius/ISAP-Computer
 
 where I optimized the SAP-1 computer
 
-## ISAP-1 Computer version 0.1
+## ISAP-1 TTL Computer version 0.1
 Version 0.1 of the ISAP-1 computer is based on the original SAP-1 computer schematic.
 
 The structure of the SAP-1 computer and by implication the ISAP-1 computer is:
@@ -129,7 +129,7 @@ I added a 100nF decoupling capacitor for each chip used in order to eliminate hi
 
 ![ Figure 56 ](/Pictures/Figure56.png)
 
-### Adder / Subtractor Schematic
+#### Adder / Subtractor Schematic
 The SAP-1 computer has no Logic Unit, it can only perform the Addition and Subtraction operations.
 
 The main element of the Arithmetic Unit is the 74LS83 chip which is a 4-bit Full Adder, so two such chips are used.
@@ -138,9 +138,11 @@ The Subtract Operation is performed by 2's Complementing the operand B. For this
 
 The result is transmitted on the Bus via 8 three-state buffers when the EU control signal is active. These buffers are of the 74LS126 type. Each chip has 4 buffers, so 2 chips are required.
 
-The schematic does not present any other changes compared to the original one.
+The schematic has no changes from the original.
 
-![ Figure 11 ](/Pictures/Figure11.png)
+I added a 100nF decoupling capacitor for each chip used in order to eliminate high-frequency noise propagation along the power supply path.
+
+![ Figure 57 ](/Pictures/Figure57.png)
 
 ### Register B Schematic
 Register B acts as a temporary storage register, where the operand B required by the Adder to perform the Addition operation is loaded.

@@ -59,19 +59,9 @@ First I will implement the Central Processing Unit which has the following schem
 
 ![ Figure 52 ](/Pictures/Figure52.png)
 
+You can see all the functional blocks in the diagram in figure 51. In addition I added decoupling capacitors for the power supply circuit. We also have the J1M connectors for connecting to the supply voltage given by the Back Plane, the J2M connector for connecting to the three system buses located on the Back Plane. The J3F and J4F connectors are used to allow the Control Block module to be attached to the CPU module.
 
-
-
-
-
-
-
-
-All functional blocks can be seen in the diagram in Figure 3.
-
-In addition, we have a connector added by me marked J11 through which the supply voltage can be provided if the Power Supply is made on a separate PCB.
-
-### Program Counter Schematic
+#### Program Counter Schematic
 In the original schematic, the authors used 4 Flip-Flops connected in such a way that they form a Binary Counter. For implementation, two 74LS107 were used for this purpose.
 
 Counting is done when the CP control signal is active and the falling edge of the clock signal appears.
@@ -88,7 +78,9 @@ The Schematic does has no changes from the original one.
 
 The original schematic has no decoupling capacitors for the chips. For the computer's operating speed of 1kHz this may not matter.
 
-![ Figure 5 ](/Pictures/Figure5.png)
+I added a 100nF decoupling capacitor for each chip used in order to eliminate high-frequency noise propagation along the power supply path.
+
+![ Figure 53 ](/Pictures/Figure53.png)
 
 ### Address Register Schematic
 In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.

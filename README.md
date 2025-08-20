@@ -82,7 +82,7 @@ I added a 100nF decoupling capacitor for each chip used in order to eliminate hi
 
 ![ Figure 53 ](/Pictures/Figure53.png)
 
-### Address Register Schematic
+#### Address Register Schematic
 In the original schematic, the authors used a 4-bit register using the 74LS173 chip which has a permanently active output.
 
 Note that the connection of the inputs to the data bus is in reverse order in the original SAP-1 computer schematic, D0 is connected to pin 11, D1 is connected to pin 12, D2 is connected to pin 13 and D4 is connected to pin 14.
@@ -95,47 +95,24 @@ I added a 100nF decoupling capacitor to the chip used in order to eliminate high
 
 ![ Figure 54 ](/Pictures/Figure54.png)
 
-### Memory Subsystem Schematic
-In the SAP-1 Computer, the Memory is represented in the middle of the System. Separation from the Central Processing Unit part is not possible.
-
-In the ISAP-1 implementation, I separated the Memory Subsystem from the CPU and the I/O Subsystem.
-
-The Block Diagram of the Memory Subsystem of the ISAP-1 computer which is identical to that of the SAP-1 computer is shown in the following figure
-
-![ Figure 7 ](/Pictures/Figure7.png)
-
-Although the Memory subsystem is treated as a separate block, the schematic does not show any changes from the original one in SAP-1.
-
-![ Figure 8 ](/Pictures/Figure8.png)
-
-I added two pairs of connectors marked J3_1, J3_2 și J4_1, J4_2 for connection to the Front Panel if it is made on a separate PCB.
-
-The schematic has no other changes from the original schematic.
-
-The integrated circuit marked in the diagram C5 in the SAP-1 schematic and U5 in the ISAP-1 schematic of the 74LS157 type which consists of 4 2-to-1 multiplexers is used to select the address.
-
-If switch SW2 is in the “Program” position, the address given by the Address Register via the Address Bus is selected, otherwise if switch SW2 is in the “Run” position, the value set by switch group SW1 is selected as the address.
-
-From the catalog data of the 74189 chip we find that when the #CE input is low, this chip outputs the Data stored at the selected Address, this happens when the PM (original CE) control signal is activated or when the SW2 switch is moved to the “Programming” position.
-
-### Instruction Register Schematic
+#### Instruction Register Schematic
 The Instruction Register is made using two integrated circuits of the 74LS173 type which is a 4-bit register.
 
 The first chip marked U8 in the diagram stores the upper nibble which represents the binary code of the instruction being executed.
 
 The second chip marked in the diagram U9 stores the lower nibble which represents the parameter for the instruction being executed.
 
-According to the catalog data for the 74LS173 integrated circuit, pin 14 is D0 and the corresponding output Q0 is pin 3, pin 13 is D1 and the corresponding output Q1 is pin 4, pin 12 is D2 and the corresponding output Q2 is pin 4, and pin 11 is D3 and the corresponding output Q3 is pin 6.
+According to the datasheet for the 74LS173 chip, pin 14 is D0 and the corresponding output Q0 is pin 3, pin 13 is D1 and the corresponding output Q1 is pin 4, pin 12 is D2 and the corresponding output Q2 is pin 4, and pin 11 is D3 and the corresponding output Q3 is pin 6.
 
 But in the SAP-1 computer schematic, pin 14 which is D0 and pin 3 which is Q0 are connected to bit 3 of the W Bus, pin 13 which is D1 and pin 4 which is Q1 are connected to bit 2 of the W Bus, pin 12 which is D2 and pin 5 which is Q2 are connected to bit 1 of the W Bus and pin 11 which is D3 and pin 6 which is Q3 are connected to bit 0 of the W Bus.
 
 So, the order of inputs and outputs is reversed. Since the inputs and outputs are also reversed accordingly, the operation of the SAP-1 computer is normal.
 
-I connected the chip pins to the bus in the order given in the catalog sheets.
+The schematic does not present any changes from the original.
 
-The Schematic does not present any other changes compared to the original one.
+I added a 100nF decoupling capacitor for each chip used in order to eliminate high-frequency noise propagation along the power supply path.
 
-![ Figure 9 ](/Pictures/Figure9.png)
+![ Figure 55 ](/Pictures/Figure55.png)
 
 ### Accumulator Register Schematic
 The Accumulator register is made using two 4-bit 74LS173 type registers marked U10 and U11 in the diagram (in the original diagram they are marked C10 and C11).

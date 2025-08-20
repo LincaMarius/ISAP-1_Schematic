@@ -114,20 +114,20 @@ I added a 100nF decoupling capacitor for each chip used in order to eliminate hi
 
 ![ Figure 55 ](/Pictures/Figure55.png)
 
-### Accumulator Register Schematic
+#### Accumulator Register Schematic
 The Accumulator register is made using two 4-bit 74LS173 type registers marked U10 and U11 in the diagram (in the original diagram they are marked C10 and C11).
 
-Pin 1 and pin 2 are connected to ground which causes the outputs to be permanently active. Thus, the contents of the Accumulator Register are permanently transmitted to the ALU via signals AC0 to AC7.
+Pin 1 and pin 2 are connected to ground which causes the outputs to be permanently active. Thus, the contents of the Accumulator Register are permanently transmitted to the ALU via signals AD0 to AD7.
 
 The contents of the Accumulator Register are put on the bus when the EA control signal is active, which activates the 8 Tri-State drivers. The Tri-State drivers are implemented using two 74LS126 chips, each containing 4 Tri-State drivers.
 
 As in the previous cases, the order of inputs and outputs is reversed from the order of the bits on the W bus. Since the inputs and outputs are also reversed accordingly, the operation of the SAP-1 computer is normal.
 
-I connected the chip pins to the bus in the order given in the catalog sheets
+The schematic has no changes from the original.
 
-The schematic does not present any other changes compared to the original one.
+I added a 100nF decoupling capacitor for each chip used in order to eliminate high-frequency noise propagation along the power supply path.
 
-![ Figure 10 ](/Pictures/Figure10.png)
+![ Figure 56 ](/Pictures/Figure56.png)
 
 ### Adder / Subtractor Schematic
 The SAP-1 computer has no Logic Unit, it can only perform the Addition and Subtraction operations.

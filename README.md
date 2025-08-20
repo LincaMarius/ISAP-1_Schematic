@@ -47,14 +47,6 @@ The original block diagram of the Central Processing Unit of the SAP-1 computer 
 
 ![ Figure 51 ](/Pictures/Figure51.png)
 
-
-
-
-
-
-
-
-
 Initially, I used Altium Designer to design the Schematic and PCB.
 
 But, so that this schematic can be viewed and possibly edited by anyone, I put the version edited with KiCAD on GitHub, because this program is free and can be freely used by anyone.
@@ -65,7 +57,15 @@ In the original schematic the chips are labeled C1 to C48. To eliminate confusio
 
 First I will implement the Central Processing Unit which has the following schematic:
 
-![ Figure 4 ](/Pictures/Figure4.png)
+![ Figure 52 ](/Pictures/Figure52.png)
+
+
+
+
+
+
+
+
 
 All functional blocks can be seen in the diagram in Figure 3.
 

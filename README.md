@@ -159,6 +159,9 @@ I added a 100nF decoupling capacitor for each chip used in order to eliminate hi
 
 ![ Figure 58 ](/Pictures/Figure58.png)
 
+The archived project for ISAP-1 TTL Computer version 0.1 is here: \
+https://github.com/LincaMarius/ISAP-1_Schematic/blob/main/KiCAD/ ISAP-1_TTL_CPU_1_0.zip
+
 ### Control Unit Schematic
 The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.
 

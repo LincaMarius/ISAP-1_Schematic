@@ -159,6 +159,15 @@ I added a 100nF decoupling capacitor for each chip used in order to eliminate hi
 
 ![ Figure 58 ](/Pictures/Figure58.png)
 
+### Control Unit Schematic
+The Control Unit's role is to direct the flow of data between the various Blocks of the Computer to ensure its operation and achieve the expected results.
+
+It consists of three elements: the Instruction Decoder, the Ring Counter and the Control Matrix as can be seen in figure 14:
+
+![ Figure 14 ](https://github.com/LincaMarius/ISAP-1_Block_Diagram/blob/main/Pictures/Figure14.png)
+
+
+
 ### Output Device – Binary Display
 In the SAP-1 computer the output device is called the Output Register and is present in the Block Diagram at the bottom right of the drawing.
 
